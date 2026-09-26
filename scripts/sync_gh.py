@@ -11,7 +11,7 @@ GH = os.path.join(ROOT, 'gh-upload')
 # 1) 脚本
 for f in ('pipe2.py', 'runjobs.py', 'dewm.py', 'export_json.py', 'audit2.py', 'audit_run.py',
           'mkdiag3.py', 'verifyfast.py', 'gen_overview.py', 'gen_txt.py', 'gen_txt3.py',
-          'gen_txt_run.py', 'titlemap.py', 'sync_gh.py', 'copynew.py', 'gh.py', 'push_gh.py'):
+          'gen_txt_run.py', 'titlemap.py', 'gen_html.py', 'sync_gh.py', 'copynew.py', 'gh.py', 'push_gh.py'):
     src = os.path.join(HERE, f)
     if not os.path.exists(src):
         print('!! 缺脚本', f); continue
@@ -24,7 +24,8 @@ print('脚本已同步')
 # 2) 文档
 for a, b in (('对比结果/改版对照总览.md', 'docs/改版对照总览.md'),
              ('对比结果/对照结果审计报告.md', 'docs/对照结果审计报告.md'),
-             ('对比结果/2024版与2026版教材改动清单.txt', 'docs/2024版与2026版教材改动清单（自然语言版）.txt')):
+             ('对比结果/2024版与2026版教材改动清单.txt', 'docs/2024版与2026版教材改动清单（自然语言版）.txt'),
+             ('对比结果/2024版与2026版教材改动清单.html', 'docs/改动清单（单页网页版）.html')):
     s = os.path.join(ROOT, a); d = os.path.join(GH, b)
     os.makedirs(os.path.dirname(d), exist_ok=True)
     shutil.copy2(s, d)
