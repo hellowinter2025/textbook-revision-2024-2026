@@ -19,6 +19,8 @@ for tk in pipe2.TASKS:
     shutil.copy2(src, dst)
     rows.append((tk['label'], os.path.getsize(dst)))
 shutil.copy2('对比结果/改版对照总览.md', os.path.join(ROOT, 'docs', '改版对照总览.md'))
+shutil.copy2('对比结果/对照结果审计报告.md', os.path.join(ROOT, 'docs', '对照结果审计报告.md'))
+shutil.copy2('对比结果/2024版与2026版教材改动清单.txt', os.path.join(ROOT, 'docs', '2024版与2026版教材改动清单（自然语言版）.txt'))
 keep = {'修改页对照_%s.pdf' % l for l, _ in rows}
 for f in os.listdir(os.path.join(ROOT, 'pdf')):
     if f not in keep:

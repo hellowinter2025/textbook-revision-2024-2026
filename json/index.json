@@ -16,32 +16,32 @@
    "subject": "语文·统编版",
    "file": "语文·统编版.json",
    "books": 5,
-   "groups": 47,
-   "changes": 82,
+   "groups": 31,
+   "changes": 65,
    "not_included": []
   },
   {
    "subject": "数学·苏教版",
    "file": "数学·苏教版.json",
    "books": 4,
-   "groups": 9,
-   "changes": 20,
+   "groups": 11,
+   "changes": 23,
    "not_included": []
   },
   {
    "subject": "英语·译林版",
    "file": "英语·译林版.json",
    "books": 7,
-   "groups": 40,
-   "changes": 90,
+   "groups": 38,
+   "changes": 88,
    "not_included": []
   },
   {
    "subject": "物理·人教版",
    "file": "物理·人教版.json",
    "books": 6,
-   "groups": 23,
-   "changes": 41,
+   "groups": 21,
+   "changes": 40,
    "not_included": []
   },
   {
@@ -64,15 +64,15 @@
    "subject": "生物·人教版",
    "file": "生物·人教版.json",
    "books": 5,
-   "groups": 63,
-   "changes": 91,
+   "groups": 64,
+   "changes": 93,
    "not_included": []
   },
   {
    "subject": "数学·人教A版",
    "file": "数学·人教A版.json",
    "books": 5,
-   "groups": 94,
+   "groups": 93,
    "changes": 143,
    "not_included": []
   },
@@ -80,8 +80,8 @@
    "subject": "数学·人教B版",
    "file": "数学·人教B版.json",
    "books": 3,
-   "groups": 11,
-   "changes": 19,
+   "groups": 10,
+   "changes": 16,
    "not_included": [
     "普通高中教科书·数学（B版）必修 第一册.pdf",
     "普通高中教科书·数学（B版）必修 第三册.pdf",
@@ -93,8 +93,8 @@
    "subject": "地理·人教版",
    "file": "地理·人教版.json",
    "books": 5,
-   "groups": 88,
-   "changes": 147,
+   "groups": 90,
+   "changes": 150,
    "not_included": []
   },
   {
@@ -109,23 +109,23 @@
    "subject": "思想政治·统编版",
    "file": "思想政治·统编版.json",
    "books": 8,
-   "groups": 346,
-   "changes": 1088,
+   "groups": 334,
+   "changes": 1092,
    "not_included": []
   },
   {
    "subject": "历史·统编版",
    "file": "历史·统编版.json",
    "books": 5,
-   "groups": 164,
-   "changes": 286,
+   "groups": 161,
+   "changes": 281,
    "not_included": []
   }
  ],
  "totals": {
   "subjects": 13,
   "books": 68,
-  "groups": 962,
-  "changes": 2150
+  "groups": 930,
+  "changes": 2134
  }
 }

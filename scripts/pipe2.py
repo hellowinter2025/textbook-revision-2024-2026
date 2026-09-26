@@ -111,23 +111,44 @@ def merge_rects(rects, rowtol=4.0, gaptol=7.0):
         out.append(cur)
     return out
 
-# ---------------- 书眉页码：位置重复检测 ----------------
-def mask_positions(doc):
+# ---------------- 书眉页码：位置重复 + 文字同质 ----------------
+def _homogeneous(texts):
+    """这一摞行文本像不像"书眉/页码"：完全相同，或去数字后相同，或多为短的含数字串。"""
     from collections import Counter
-    cnt = Counter(); n = doc.page_count
+    m = len(texts)
+    if m == 0: return False
+    if Counter(texts).most_common(1)[0][1] / m >= 0.6: return True
+    if Counter(re.sub(r'\d+', '#', t) for t in texts).most_common(1)[0][1] / m >= 0.6: return True
+    return sum(1 for t in texts if len(t) <= 12 and re.search(r'\d', t)) / m >= 0.6
+
+
+def mask_positions(doc):
+    """找出书眉/页码所在的 y 桶。
+
+    ⚠️ 只按「某 y 位置在 ≥35% 的页面都有文字」判定是错的：教材版心固定，
+    每页正文的首行、末行 y 本来就恒定，会被整行误当成书眉页脚吞掉。
+    （2026-09-26 语文就是这么错的：每页吞掉首行与末行，而两版该行 y 差几 pt
+    时会落进不同桶 → 单侧被吞 → 制造成片假差异，表现为"一模一样却标成修改"。）
+
+    改为双重条件：① 该 y 桶在 ≥35% 的页面都有文字；② 桶内文字高度同质。
+    """
+    n = doc.page_count
+    buckets = {}
     for i in range(n):
         pg = doc[i]; h = pg.rect.height
-        ys = set()
+        lines = {}
         for bl in pg.get_text('dict')['blocks']:
             for l in bl.get('lines', []):
                 for sp in l['spans']:
                     if not sp['text'].strip(): continue
                     yc = (sp['bbox'][1] + sp['bbox'][3]) / 2
-                    if yc < h * 0.10 or yc > h * 0.90:
-                        ys.add(int(yc / 3) * 3)
-        for y in ys: cnt[y] += 1
+                    if yc < h * 0.14 or yc > h * 0.86:          # 只考察页边条带
+                        lines.setdefault(int(yc / 3) * 3, []).append(sp['text'])
+        for k, parts in lines.items():
+            buckets.setdefault(k, []).append(''.join(parts).strip())
     thr = max(4, n * 0.35)
-    return {y for y, c in cnt.items() if c >= thr}
+    return {k for k, txts in buckets.items()
+            if len(txts) >= thr and _homogeneous(txts)}
 
 COV_CELL = 4.0
 _COV_CACHE = {}
@@ -162,15 +183,16 @@ def cover_frac(bbox, s):
 def _fig_line(spanlist):
     """图表/表格内的文字常被逐格排版，抽取顺序与阅读顺序不一致（同一行内字符 x 坐标回跳）。
     这类行在两版之间常常整段不同，会造出「正文 ⇄ 表格标签」这种离谱配对，直接丢弃。
-    仅对短行（≤16 字）生效，避免误伤数学教材里字体混排的正文公式行。"""
+    判据收紧为：短行（≤16 字）且出现 **≥2 次回跳，或有 1 次 >3pt 的大回跳**——
+    避免误伤数学教材里中英/正斜体混排的正文行（那只会偶尔回跳一点点）。"""
     cs = []
     for s in spanlist:
         for c in s['chars']:
             if c['c'].strip(): cs.append(c)
-    if len(cs) < 2: return False
+    if len(cs) < 2 or len(cs) > 16: return False
     xs = [c['bbox'][0] for c in cs]
-    if not any(xs[i] < xs[i - 1] - 0.6 for i in range(1, len(xs))): return False
-    return sum(1 for c in cs if c['c'].strip()) <= 16
+    jumps = [xs[i - 1] - xs[i] for i in range(1, len(xs)) if xs[i] < xs[i - 1] - 0.6]
+    return len(jumps) >= 2 or (jumps and max(jumps) > 3.0)
 
 def page_chars(page, maskys, thr=0.0):
     rd = page.get_text('rawdict'); out = []
@@ -606,9 +628,13 @@ def render_book(tk, of, nf, short, items, tmpdir):
     make_cover(out, tk['label'], short, len(keep), ntotal)
     cache = {'A': {}, 'B': {}}
     thrA = doc_thr(dold); thrB = doc_thr(dnew)
+    # ⚠️ 必须与 diff 阶段用同一个掩码集合：掩码会把连续占位符折叠成一个字符，
+    # 渲染时若传空集合，字符表长度就与 items 里的索引不同 → 红框整体错位（"标注歪了"）。
+    mkr = mask_positions(dold) | mask_positions(dnew)
+    self_check = []; nchk = [0]
     def get_chars(doc, key, pno):
         if pno not in cache[key]:
-            cache[key][pno] = page_chars(doc[pno], set(), thrA if key == 'A' else thrB)
+            cache[key][pno] = page_chars(doc[pno], mkr, thrA if key == 'A' else thrB)
         return cache[key][pno]
     for gi, (key, grp) in enumerate(keep, 1):
         wi = whole_item(grp)
@@ -642,6 +668,7 @@ def render_book(tk, of, nf, short, items, tmpdir):
         label(X_R, f'2026 版　第 {p26+1} 页', more26)
         placed = []
         BADGE = 13.5
+        CHK = []          # 框内文字自校验结果
         def put_badge(x, anch_y):
             bx = x + DISP_W - 16.5
             base = min(max(anch_y - BADGE / 2, Y0 + 0.5), Y0 + DISP_H - BADGE - 0.5)
@@ -672,10 +699,23 @@ def render_book(tk, of, nf, short, items, tmpdir):
             drawn = 0
             for idx, it in enumerate(grp):
                 rr = it.get(field_r, {}).get(str(pno))
-                cand = []
+                cand = []; want = []
                 if rr:
+                    seen = set()
                     for s, e in rr:
-                        for k in range(s, min(e, len(chars))): cand.append(chars[k][1])
+                        for k in range(s, min(e, len(chars))):
+                            if chars[k][0] == MASK: continue   # 书眉页脚占位符不画框
+                            if k in seen: continue             # 区间可能重叠，去重
+                            seen.add(k)
+                            cand.append(chars[k][1]); want.append(chars[k][0])
+                # 自校验：本侧框内文字应等于该条目这一侧的差异文字
+                # （区间重叠时可能取到重复片段，故用互相包含判定）
+                if rr:
+                    got = strip_ctrl(''.join(want))
+                    exp = strip_ctrl(it['old'] if field_r == 'r24' else it['new'])
+                    if not (got == exp or (exp and exp in got) or (got and got in exp)):
+                        CHK.append('页%s 组%d[%d] %s 期望 %r 实际 %r'
+                                   % (pno + 1, gi, idx + 1, field_r, exp[:60], got[:60]))
                 rects = merge_rects(cand) if cand else []
                 if rects:
                     boxes = []
@@ -693,6 +733,12 @@ def render_book(tk, of, nf, short, items, tmpdir):
                 elif it.get(field_a) and it[field_a][0] - 1 == pno:
                     k = it[field_a][1]; _a = it[field_a]
                     _edge = _a[2] if len(_a) > 2 else 1
+                    # 锚点若落在书眉页脚占位符上，就近找一个真实字符，避免竖线画到页边
+                    if 0 <= k < len(chars) and chars[k][0] == MASK:
+                        for k2 in list(range(k, min(k + 40, len(chars)))) + \
+                                  list(range(k - 1, max(-1, k - 40), -1)):
+                            if chars[k2][0] != MASK:
+                                k = k2; break
                     if 0 <= k < len(chars):
                         cb = chars[k][1]
                         px = min(max(x + (cb.x1 if _edge else cb.x0) * sx, x + 2.0), x + DISP_W - 25.0)
@@ -716,6 +762,11 @@ def render_book(tk, of, nf, short, items, tmpdir):
         ft = f'2024 版 第 {p24+1} 页　｜　2026 版 第 {p26+1} 页'
         pg.insert_text((PW - MARGIN - fitz.get_text_length(ft, fontname=CN, fontsize=9.5), fy),
                        ft, fontname=CN, fontsize=9.5, color=(0.38, 0.38, 0.42))
+        for m in CHK[:3]:
+            self_check.append(m)
+        nchk[0] += len(CHK)
+    stat['chk_bad'] = nchk[0]
+    stat['chk_samples'] = self_check[:10]
     os.makedirs(tmpdir, exist_ok=True)
     tp = os.path.join(tmpdir, short + '.pdf')
     out.save(tp, garbage=4, deflate=True)
@@ -740,9 +791,15 @@ def do_buildone(key, short):
     items = json.load(open(ip, encoding='utf-8'))
     tmpdir = os.path.join('_tmp_pipe', key)
     tp, npages, stat, ntotal = render_book(tk, op, np_, short, items, tmpdir)
-    pr('原始 %d → 掩码后 %d → 去乱码 %d → 搬家后 %d → 保留 %d 组 / %d 处；输出 %d 页；%.0fs'
-       % (stat['raw'], stat['after_mask'], stat['after_garble'], stat['after_move'],
+    pr('原始 %d → 掩码后 %d → 去乱码 %d → 去标签 %d（标签%d/碎片%d）→ 搬家后 %d → 保留 %d 组 / %d 处；输出 %d 页；%.0fs'
+       % (stat['raw'], stat['after_mask'], stat['after_garble'], stat.get('after_soup', stat['after_garble']),
+          stat.get('soup', 0), stat.get('frag', 0), stat['after_move'],
           stat['groups'], ntotal, npages, time.time() - t0))
+    if stat.get('chk_bad'):
+        pr('   ⚠️ 框内文字自校验：%d 处不符' % stat['chk_bad'])
+        for m in stat.get('chk_samples', []): pr('      !! %s' % m)
+    else:
+        pr('   ✅ 框内文字自校验通过：每一处红框/竖线下的文字都等于该处差异文字')
     return 'OK   %-16s %-24s 组=%-4d 处=%-4d 页=%-4d %.0fs' % (
         tk['label'], short, stat['groups'], ntotal, npages, time.time() - t0)
 
