@@ -61,12 +61,37 @@ base = 'https://%s:%s@github.com/' % (USER, TOKEN)
 g('config', '--local', 'url.%s.insteadOf' % base, 'https://github.com/', show=False)
 print('   ok')
 
-print('4) 推送')
+print('4) 推送（自动选择 直连 / SOCKS 代理）')
+
+
+def _port_open(host, port, timeout=1.5):
+    import socket
+    try:
+        socket.create_connection((host, port), timeout=timeout).close()
+        return True
+    except Exception:
+        return False
+
+
+PROXY = 'socks5h://127.0.0.1:10808'
+PROXY_ARGS = ['-c', 'http.proxy=%s' % PROXY, '-c', 'https.proxy=%s' % PROXY]
+DIRECT_ARGS = ['-c', 'http.proxy=', '-c', 'https.proxy=']
+has_proxy = _port_open('127.0.0.1', 10808)
+print('   代理 127.0.0.1:10808 %s' % ('在监听，先试代理' if has_proxy else '未监听，先试直连'))
+tries = [PROXY_ARGS, DIRECT_ARGS] if has_proxy else [DIRECT_ARGS, PROXY_ARGS]
 t0 = time.time()
-r = subprocess.run(['git', 'push', '--progress', 'origin', 'main'], cwd=WD,
-                   capture_output=True, encoding='utf-8', errors='replace')
-out = ((r.stdout or '') + (r.stderr or '')).replace(TOKEN, '<TOKEN>')
-print('   rc =', r.returncode, ' 用时 %.0fs' % (time.time() - t0))
+rc = 1
+out = ''
+for i, extra in enumerate(tries, 1):
+    where = '代理' if extra is PROXY_ARGS else '直连'
+    r = subprocess.run(['git'] + extra + ['push', '--progress', 'origin', 'main'],
+                       cwd=WD, capture_output=True, encoding='utf-8', errors='replace')
+    out = ((r.stdout or '') + (r.stderr or '')).replace(TOKEN, '<TOKEN>')
+    rc = r.returncode
+    print('   第%d次（%s）rc=%d' % (i, where, rc))
+    if rc == 0:
+        break
+print('   用时 %.0fs' % (time.time() - t0))
 print('   ', out.strip()[-400:])
 
 print('5) 清理本地配置中的令牌')

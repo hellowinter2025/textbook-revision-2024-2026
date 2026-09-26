@@ -93,7 +93,7 @@ Start-Process -FilePath "py" -ArgumentList "scripts/runjobs.py","diff","12" -Win
 | `gen_overview.py` | 生成 `对比结果/改版对照总览.md` |
 | `copynew.py` / `stage_gh.py` | 把新科目并入 `2026/`；把成品同步到上传目录 |
 | `gh.py` | GitHub API 小工具（`whoami` / `repos` / `create`），从 Windows 凭据管理器取令牌 |
-| `push_gh.py` | 提交并推送（令牌只写进仓库本地 git 配置，推完删除并校验无残留） |
+| `push_gh.py` | 提交并推送（令牌只写进仓库本地 git 配置，推完删除并校验无残留）。**自动探测 `socks5h://127.0.0.1:10808` 是否在监听，先试可用的一种，失败自动换另一种（直连 ⇄ 代理）**——代理没开也能推 |
 
 ---
 
