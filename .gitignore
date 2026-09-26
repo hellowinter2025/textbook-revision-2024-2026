@@ -1,0 +1,16 @@
+# Python 编译产物
+__pycache__/
+*.py[cod]
+
+# 中间产物（脚本运行时生成，不入库）
+_preview/
+_tmp_pipe/
+_tmp*/
+2024/
+2026/
+2026_去水印/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
