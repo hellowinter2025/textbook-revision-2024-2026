@@ -41,9 +41,19 @@ def token():
 def user():
     return _read_cred()[0]
 
+def _port_open(host, port, timeout=1.5):
+    import socket
+    try:
+        socket.create_connection((host, port), timeout=timeout).close()
+        return True
+    except Exception:
+        return False
+
 def sess():
+    """自动选择直连 / SOCKS 代理：10808 在监听就走代理，否则直连。"""
     s = requests.Session()
-    s.proxies = {'http': PROXY, 'https': PROXY}
+    if _port_open('127.0.0.1', 10808):
+        s.proxies = {'http': PROXY, 'https': PROXY}
     s.headers.update({'Authorization': 'Bearer ' + token(),
                       'Accept': 'application/vnd.github+json',
                       'X-GitHub-Api-Version': '2022-11-28',
