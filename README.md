@@ -60,6 +60,67 @@
 
 ---
 
+## 结构化数据（`json/`）
+
+不想翻 PDF 的话，改动清单也导成了 JSON，字段含义见 [`json/index.json`](json/index.json) 里的 `fields`。
+
+| 文件 | 内容 |
+| --- | --- |
+| `json/index.json` | 总索引：各科册数 / 改动组 / 改动处数 + 字段说明 |
+| `json/<科目·版本>.json` | 每科一份，含各册各改动组（`group` 编号与 PDF 里的「改动组 N / M」一致） |
+| `json/all.json` | 全部 13 套合成一份，方便脚本一把读 |
+
+```jsonc
+{
+  "subject": "化学·苏教版",
+  "totals": { "books": 5, "groups": 56, "changes": 108 },
+  "books": [{
+    "name": "必修 第一册",
+    "old_pdf": "2024/5-化学/普通高中教科书·化学必修 第一册.pdf",
+    "new_pdf": "2026_去水印/化学/苏教版/普通高中教科书·化学必修 第一册.pdf",
+    "groups": 9, "changes": 27,
+    "items": [{
+      "group": 5,
+      "old_pages": [53], "new_pages": [53],
+      "changes": [{
+        "no": 1, "type": "修改",
+        "old": "ma", "new": "-Man",
+        "old_pages": [53], "new_pages": [53],
+        "old_ranges": { "53": [[42, 44]] },      // 第 53 页字符 42–44
+        "new_ranges": { "53": [[42, 46]] },
+        "context": "，美国科学家盖尔曼（M.Gell⟦⟧n）提出质子、中子由更小的夸克构"
+      }]
+    }]
+  }]
+}
+```
+
+`changes[].count`（无此字段即为 1）对应 PDF 里合并显示的 `×N`；`old_anchor` / `new_anchor` 是纯新增／纯删除时画红竖线的位置。
+
+## 比对脚本（`scripts/`）
+
+完整可复现的脚本集，纯 Python，用法与算法要点见 [`scripts/README.md`](scripts/README.md)。
+
+| 脚本 | 作用 |
+| --- | --- |
+| `pipe2.py` | **核心**：`one` / `buildone` / `merge` 三个阶段；科目配置表 `TASKS` 在文件顶部 |
+| `runjobs.py` | 并行调度（按册拆独立子进程，`diff` / `build` / `status`） |
+| `dewm.py` | 去 Acrobat 水印（三类形态） |
+| `export_json.py` | 导出本目录的 JSON |
+| `audit2.py` / `audit_run.py` / `mkdiag3.py` / `verifyfast.py` | 逐组审计与版面核查 |
+| `gen_overview.py` | 生成 `docs/改版对照总览.md` |
+
+```bash
+pip install pymupdf numpy requests pysocks
+py scripts/runjobs.py diff 12     # 逐册算差异（务必后台跑；68 册 16 核约 22 分钟）
+py scripts/runjobs.py build 12    # 生成对照页 + 按科目合并
+py scripts/export_json.py json    # 导出 JSON
+```
+
+> 脚本默认的数据目录是 `2024/`、`2026_去水印/`、`对比结果/`、`_preview/`（均相对项目根目录），需要按自己的目录改 `pipe2.py` 顶部的 `TASKS`。
+
+---
+
 ## 比对是怎么做的
 
 1. **逐字对齐**：把整本书的字符按页串起来（去掉空白，书眉页码单独掩码），用 `difflib.SequenceMatcher` 做字符级比对。不做按页对齐——2026 版有整段增删，页码会错位。

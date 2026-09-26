@@ -1,0 +1,3071 @@
+{
+ "subject": "英语·译林版",
+ "key": "B英语译林",
+ "old_dir": "2024/3-英语",
+ "new_dir": "2026_去水印/英语/译林版",
+ "totals": {
+  "books": 7,
+  "groups": 40,
+  "changes": 90
+ },
+ "not_included": [],
+ "books": [
+  {
+   "name": "必修 第一册",
+   "old_pdf": "2024/3-英语/普通高中教科书·英语必修 第一册.pdf",
+   "new_pdf": "2026_去水印/英语/译林版/普通高中教科书·英语必修 第一册.pdf",
+   "groups": 3,
+   "changes": 10,
+   "raw_diff_items": 21,
+   "items": [
+    {
+     "group": 1,
+     "old_pages": [
+      3
+     ],
+     "new_pages": [
+      3
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "4年5月第9",
+       "new": "6年6月第13",
+       "old_pages": [
+        3
+       ],
+       "new_pages": [
+        3
+       ],
+       "old_ranges": {
+        "3": [
+         [
+          321,
+          327
+         ]
+        ]
+       },
+       "new_ranges": {
+        "3": [
+         [
+          321,
+          328
+         ]
+        ]
+       },
+       "context": "次2020年7月第1版印次202⟦⟧次印刷标准书号ISBN97875"
+      },
+      {
+       "no": 2,
+       "type": "修改",
+       "old": "74元",
+       "new": "65元审批号苏费核（2026年）0201号",
+       "old_pages": [
+        3
+       ],
+       "new_pages": [
+        3
+       ],
+       "old_ranges": {
+        "3": [
+         [
+          355,
+          358
+         ]
+        ]
+       },
+       "new_ranges": {
+        "3": [
+         [
+          356,
+          377
+         ]
+        ]
+       },
+       "context": "787544781329定价9.⟦⟧版权所有·侵权必究如发现印、装质"
+      }
+     ]
+    },
+    {
+     "group": 2,
+     "old_pages": [
+      18
+     ],
+     "new_pages": [
+      18
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "删除",
+       "old": "the",
+       "new": "",
+       "old_pages": [
+        18
+       ],
+       "new_pages": [
+        18
+       ],
+       "old_ranges": {
+        "18": [
+         [
+          499,
+          502
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        18,
+        498,
+        1
+       ],
+       "context": "English,Mathsand⟦⟧Sciencesubjects:"
+      },
+      {
+       "no": 2,
+       "type": "删除",
+       "old": "subjects:Biology,ChemistryandPhysics",
+       "new": "",
+       "old_pages": [
+        18
+       ],
+       "new_pages": [
+        18
+       ],
+       "old_ranges": {
+        "18": [
+         [
+          509,
+          545
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        18,
+        505,
+        1
+       ],
+       "context": "thsandtheScience⟦⟧.Inyearten,stude"
+      },
+      {
+       "no": 3,
+       "type": "修改",
+       "old": "nine",
+       "new": "six",
+       "old_pages": [
+        18
+       ],
+       "new_pages": [
+        18
+       ],
+       "old_ranges": {
+        "18": [
+         [
+          582,
+          586
+         ]
+        ]
+       },
+       "new_ranges": {
+        "18": [
+         [
+          543,
+          546
+         ]
+        ]
+       },
+       "context": "uallyhavetolearn⟦⟧subjectsandtheyc"
+      },
+      {
+       "no": 4,
+       "type": "修改",
+       "old": "ArtandBusiness",
+       "new": "Musicandamodernforeignlanguage",
+       "old_pages": [
+        18
+       ],
+       "new_pages": [
+        18
+       ],
+       "old_ranges": {
+        "18": [
+         [
+          649,
+          663
+         ]
+        ]
+       },
+       "new_ranges": {
+        "18": [
+         [
+          609,
+          639
+         ]
+        ]
+       },
+       "context": "s,suchasHistory,⟦⟧.Theclassesaredi"
+      },
+      {
+       "no": 5,
+       "type": "新增",
+       "old": "",
+       "new": "most",
+       "old_pages": [
+        18
+       ],
+       "new_pages": [
+        18
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "18": [
+         [
+          673,
+          677
+         ]
+        ]
+       },
+       "old_anchor": [
+        18,
+        696,
+        1
+       ],
+       "context": "erentfromthosein⟦⟧China.Eachteache"
+      },
+      {
+       "no": 6,
+       "type": "修改",
+       "old": "a",
+       "new": "eseschools",
+       "old_pages": [
+        18
+       ],
+       "new_pages": [
+        18
+       ],
+       "old_ranges": {
+        "18": [
+         [
+          701,
+          702
+         ]
+        ]
+       },
+       "new_ranges": {
+        "18": [
+         [
+          681,
+          691
+         ]
+        ]
+       },
+       "context": "tfromthoseinChin⟦⟧.Eachteacherhast"
+      }
+     ]
+    },
+    {
+     "group": 3,
+     "old_pages": [
+      82
+     ],
+     "new_pages": [
+      82
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "新增",
+       "old": "",
+       "new": "always",
+       "old_pages": [
+        82
+       ],
+       "new_pages": [
+        82
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "82": [
+         [
+          911,
+          917
+         ]
+        ]
+       },
+       "old_anchor": [
+        82,
+        910,
+        1
+       ],
+       "context": "latetonight.2She⟦⟧________________"
+      },
+      {
+       "no": 2,
+       "type": "修改",
+       "old": ",bothofwhomareaircraftengineers",
+       "new": "inthefieldofcomputerscience",
+       "old_pages": [
+        82
+       ],
+       "new_pages": [
+        82
+       ],
+       "old_ranges": {
+        "82": [
+         [
+          953,
+          984
+         ]
+        ]
+       },
+       "new_ranges": {
+        "82": [
+         [
+          959,
+          986
+         ]
+        ]
+       },
+       "context": "ons’achievements⟦⟧.3Itwassaidthats"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "必修 第三册",
+   "old_pdf": "2024/3-英语/普通高中教科书·英语必修 第三册.pdf",
+   "new_pdf": "2026_去水印/英语/译林版/普通高中教科书·英语必修 第三册.pdf",
+   "groups": 6,
+   "changes": 10,
+   "raw_diff_items": 13,
+   "items": [
+    {
+     "group": 1,
+     "old_pages": [
+      3
+     ],
+     "new_pages": [
+      3
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "4年5月第8",
+       "new": "6年6月第12",
+       "old_pages": [
+        3
+       ],
+       "new_pages": [
+        3
+       ],
+       "old_ranges": {
+        "3": [
+         [
+          318,
+          324
+         ]
+        ]
+       },
+       "new_ranges": {
+        "3": [
+         [
+          318,
+          325
+         ]
+        ]
+       },
+       "context": "2020年12月第1版印次202⟦⟧次印刷标准书号ISBN97875"
+      },
+      {
+       "no": 2,
+       "type": "修改",
+       "old": "3年）0362",
+       "new": "5年）0437",
+       "old_pages": [
+        3
+       ],
+       "new_pages": [
+        3
+       ],
+       "old_ranges": {
+        "3": [
+         [
+          365,
+          372
+         ]
+        ]
+       },
+       "new_ranges": {
+        "3": [
+         [
+          366,
+          373
+         ]
+        ]
+       },
+       "context": "价9.74元审批号苏费核（202⟦⟧号举报电话：12315版权所有·"
+      }
+     ]
+    },
+    {
+     "group": 2,
+     "old_pages": [
+      88
+     ],
+     "new_pages": [
+      88
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "新增",
+       "old": "",
+       "new": "思想家、",
+       "old_pages": [
+        88
+       ],
+       "new_pages": [
+        88
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "88": [
+         [
+          217,
+          221
+         ]
+        ]
+       },
+       "old_anchor": [
+        88,
+        216,
+        1
+       ],
+       "context": "弗里德里希·恩格斯这两句出自德国⟦⟧哲学家、革命导师弗里德里希·恩格"
+      },
+      {
+       "no": 2,
+       "type": "修改",
+       "old": "革命导师",
+       "new": "马克思主义创始人",
+       "old_pages": [
+        88
+       ],
+       "new_pages": [
+        88
+       ],
+       "old_ranges": {
+        "88": [
+         [
+          221,
+          225
+         ]
+        ]
+       },
+       "new_ranges": {
+        "88": [
+         [
+          225,
+          233
+         ]
+        ]
+       },
+       "context": "希·恩格斯这两句出自德国哲学家、⟦⟧弗里德里希·恩格斯的《劳动在从猿"
+      }
+     ]
+    },
+    {
+     "group": 3,
+     "old_pages": [
+      124
+     ],
+     "new_pages": [
+      124
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "新增",
+       "old": "",
+       "new": "思想家、",
+       "old_pages": [
+        124
+       ],
+       "new_pages": [
+        124
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "124": [
+         [
+          86,
+          90
+         ]
+        ]
+       },
+       "old_anchor": [
+        124,
+        85,
+        1
+       ],
+       "context": "əlz/弗里德里希·恩格斯（德国⟦⟧哲学家、革命导师）(1)theA"
+      },
+      {
+       "no": 2,
+       "type": "修改",
+       "old": "革命导师",
+       "new": "马克思主义创始人",
+       "old_pages": [
+        124
+       ],
+       "new_pages": [
+        124
+       ],
+       "old_ranges": {
+        "124": [
+         [
+          90,
+          94
+         ]
+        ]
+       },
+       "new_ranges": {
+        "124": [
+         [
+          94,
+          102
+         ]
+        ]
+       },
+       "context": "弗里德里希·恩格斯（德国哲学家、⟦⟧）(1)theAmazon/ˈæ"
+      },
+      {
+       "no": 3,
+       "type": "删除",
+       "old": "Newdale/ˌnjuːˈdeɪl/纽代尔（虚构地名）(17)",
+       "new": "",
+       "old_pages": [
+        124
+       ],
+       "new_pages": [
+        124
+       ],
+       "old_ranges": {
+        "124": [
+         [
+          1072,
+          1104
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        124,
+        1079,
+        1
+       ],
+       "context": "/杰西·凯布尔（女子名）(17)⟦⟧Wordlist3(proper"
+      }
+     ]
+    },
+    {
+     "group": 4,
+     "old_pages": [
+      124
+     ],
+     "new_pages": [
+      125
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "新增",
+       "old": "",
+       "new": "Goldshore/ˌɡəʊldˈʃɔː(r)/金海岸（虚构地名）(17)",
+       "old_pages": [
+        124
+       ],
+       "new_pages": [
+        125
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "125": [
+         [
+          1,
+          38
+         ]
+        ]
+       },
+       "old_anchor": [
+        124,
+        1125,
+        1
+       ],
+       "context": "t3(propernouns)⟦⟧SabrinaAndron/sə"
+      }
+     ]
+    },
+    {
+     "group": 5,
+     "old_pages": [
+      125,
+      126
+     ],
+     "new_pages": [
+      126
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "Pandora/pænˈdɔːrə/潘多拉（希腊神话中的人物）(41)",
+       "new": "LookUp《抬起头来》（短片名）(42)",
+       "old_pages": [
+        125,
+        126
+       ],
+       "new_pages": [
+        126
+       ],
+       "old_ranges": {
+        "125": [
+         [
+          1082,
+          1117
+         ]
+        ],
+        "126": [
+         [
+          0,
+          1
+         ]
+        ]
+       },
+       "new_ranges": {
+        "126": [
+         [
+          0,
+          22
+         ]
+        ]
+       },
+       "context": "ælən/艾伦（男子名）(39)⟦⟧HowtheInternetWo"
+      }
+     ]
+    },
+    {
+     "group": 6,
+     "old_pages": [
+      130
+     ],
+     "new_pages": [
+      130
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "3年）0362",
+       "new": "5年）0437",
+       "old_pages": [
+        130
+       ],
+       "new_pages": [
+        130
+       ],
+       "old_ranges": {
+        "130": [
+         [
+          19,
+          26
+         ]
+        ]
+       },
+       "new_ranges": {
+        "130": [
+         [
+          19,
+          26
+         ]
+        ]
+       },
+       "context": "9.74元审批号：苏费核（202⟦⟧号举报电话：12315"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "必修 第二册",
+   "old_pdf": "2024/3-英语/普通高中教科书·英语必修 第二册.pdf",
+   "new_pdf": "2026_去水印/英语/译林版/普通高中教科书·英语必修 第二册.pdf",
+   "groups": 0,
+   "changes": 0,
+   "raw_diff_items": 0,
+   "items": []
+  },
+  {
+   "name": "选择性必修 第一册",
+   "old_pdf": "2024/3-英语/普通高中教科书·英语选择性必修 第一册.pdf",
+   "new_pdf": "2026_去水印/英语/译林版/普通高中教科书·英语选择性必修 第一册.pdf",
+   "groups": 16,
+   "changes": 37,
+   "raw_diff_items": 47,
+   "items": [
+    {
+     "group": 1,
+     "old_pages": [
+      3
+     ],
+     "new_pages": [
+      3
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "删除",
+       "old": "©WritingGroupofEnglish,YilinPressandOxfordUniversityPress(China)Limited2019“Oxford”isaregisteredtrademarkofOxfordUniversityPress©《普通高中教科书·英语》编写组、译林出版社和牛津大学出版社（中国）有限公司2019Oxford为牛津大学出版社的注册商标。",
+       "new": "",
+       "old_pages": [
+        3
+       ],
+       "new_pages": [
+        3
+       ],
+       "old_ranges": {
+        "3": [
+         [
+          0,
+          190
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        3,
+        0,
+        0
+       ],
+       "context": "⟦⟧版权所有。未经版权所有人书面许可"
+      },
+      {
+       "no": 2,
+       "type": "删除",
+       "old": "译林出版社",
+       "new": "",
+       "old_pages": [
+        3
+       ],
+       "new_pages": [
+        3
+       ],
+       "old_ranges": {
+        "3": [
+         [
+          334,
+          339
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        3,
+        143,
+        1
+       ],
+       "context": "健马绯璠潘志娟高睿君丁婧装帧设计⟦⟧韦枫胡苨黄晨牛津大学出版社（中国"
+      },
+      {
+       "no": 3,
+       "type": "删除",
+       "old": "牛津大学出版社（中国）有限公司设计部",
+       "new": "",
+       "old_pages": [
+        3
+       ],
+       "new_pages": [
+        3
+       ],
+       "old_ranges": {
+        "3": [
+         [
+          345,
+          363
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        3,
+        149,
+        1
+       ],
+       "context": "婧装帧设计译林出版社韦枫胡苨黄晨⟦⟧出版译林出版社地址南京市湖南路1"
+      },
+      {
+       "no": 4,
+       "type": "修改",
+       "old": "2年5月第4",
+       "new": "6年6月第12",
+       "old_pages": [
+        3
+       ],
+       "new_pages": [
+        3
+       ],
+       "old_ranges": {
+        "3": [
+         [
+          508,
+          514
+         ]
+        ]
+       },
+       "new_ranges": {
+        "3": [
+         [
+          295,
+          302
+         ]
+        ]
+       },
+       "context": "2020年12月第1版印次202⟦⟧次印刷标准书号ISBN97875"
+      }
+     ]
+    },
+    {
+     "group": 2,
+     "old_pages": [
+      23
+     ],
+     "new_pages": [
+      22
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "删除",
+       "old": "ByJessieCable25December",
+       "new": "",
+       "old_pages": [
+        23
+       ],
+       "new_pages": [
+        22
+       ],
+       "old_ranges": {
+        "23": [
+         [
+          0,
+          23
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        22,
+        1180,
+        1
+       ],
+       "context": "ksoundboxstrings⟦⟧Agreatwaytolear"
+      }
+     ]
+    },
+    {
+     "group": 3,
+     "old_pages": [
+      34
+     ],
+     "new_pages": [
+      34
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "删除",
+       "old": "•ItisthethemesongfromDisney’s2016hitfilmZootopia.•ItwassungbyShakira,whotookontheroleofapopsingernamedGazelleinthefilmZootopia.•ItcombinesrhythmsfromWesternandLatinAmericanpopmusic.•Ithasastrongbeatandacatchychorus.Ithasanupliftingmessageaboutthedeterminationtoworkhardtowardsyourgoals.TryEverythingBasicinformationStyleMeaning",
+       "new": "",
+       "old_pages": [
+        34
+       ],
+       "new_pages": [
+        34
+       ],
+       "old_ranges": {
+        "34": [
+         [
+          318,
+          645
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        34,
+        317,
+        1
+       ],
+       "context": "thesongasagroup.⟦⟧SongBackgroundSi"
+      },
+      {
+       "no": 2,
+       "type": "新增",
+       "old": "",
+       "new": "(ThisTimeforAfrica)Basicinformation•Itwastheofficialsongofthe2010FIFAWorldCup.•ItwasrecordedbyShakiraandaSouthAfricanband.MeaningIthasanupliftingmessageaboutunity,courageandworkingtogethertoachieveacommongoal.Style•ItmixesenergeticAfricanrhythmswithmodernpopmusic.•Ithasastrongbeatandaverycatchychorus.",
+       "old_pages": [
+        34
+       ],
+       "new_pages": [
+        34
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "34": [
+         [
+          361,
+          663
+         ]
+        ]
+       },
+       "old_anchor": [
+        34,
+        687,
+        1
+       ],
+       "context": "ricsStyleMeaning⟦⟧FurtherstudyThe"
+      }
+     ]
+    },
+    {
+     "group": 4,
+     "old_pages": [
+      64
+     ],
+     "new_pages": [
+      64
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "e",
+       "new": "is",
+       "old_pages": [
+        64
+       ],
+       "new_pages": [
+        64
+       ],
+       "old_ranges": {
+        "64": [
+         [
+          85,
+          86
+         ]
+        ]
+       },
+       "new_ranges": {
+        "64": [
+         [
+          85,
+          87
+         ]
+        ]
+       },
+       "context": "nthebrackets.1Th⟦⟧exhibitionoffers"
+      },
+      {
+       "no": 2,
+       "type": "修改",
+       "old": "a",
+       "new": "classicartworksreflecting",
+       "old_pages": [
+        64
+       ],
+       "new_pages": [
+        64
+       ],
+       "old_ranges": {
+        "64": [
+         [
+          102,
+          103
+         ]
+        ]
+       },
+       "new_ranges": {
+        "64": [
+         [
+          103,
+          128
+         ]
+        ]
+       },
+       "context": "exhibitionoffers⟦⟧________________"
+      },
+      {
+       "no": 3,
+       "type": "修改",
+       "old": "ofmodernartworks",
+       "new": "historicalperiodssincethefoundingoftheCommunistPartyofChina",
+       "old_pages": [
+        64
+       ],
+       "new_pages": [
+        64
+       ],
+       "old_ranges": {
+        "64": [
+         [
+          126,
+          142
+         ]
+        ]
+       },
+       "new_ranges": {
+        "64": [
+         [
+          151,
+          210
+         ]
+        ]
+       },
+       "context": "__________(vary)⟦⟧.2Jessietookadee"
+      }
+     ]
+    },
+    {
+     "group": 5,
+     "old_pages": [
+      65
+     ],
+     "new_pages": [
+      65
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "He",
+       "new": "Theyoungman",
+       "old_pages": [
+        65
+       ],
+       "new_pages": [
+        65
+       ],
+       "old_ranges": {
+        "65": [
+         [
+          131,
+          133
+         ]
+        ]
+       },
+       "new_ranges": {
+        "65": [
+         [
+          131,
+          142
+         ]
+        ]
+       },
+       "context": "surehowtouseit.2⟦⟧lefthishome,neve"
+      },
+      {
+       "no": 2,
+       "type": "修改",
+       "old": "hishome",
+       "new": "thatcity",
+       "old_pages": [
+        65
+       ],
+       "new_pages": [
+        65
+       ],
+       "old_ranges": {
+        "65": [
+         [
+          137,
+          144
+         ]
+        ]
+       },
+       "new_ranges": {
+        "65": [
+         [
+          146,
+          154
+         ]
+        ]
+       },
+       "context": "wtouseit.2Heleft⟦⟧,never__________"
+      }
+     ]
+    },
+    {
+     "group": 6,
+     "old_pages": [
+      77
+     ],
+     "new_pages": [
+      77
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "如今很多孩子都近视，这个问题",
+       "new": "中国近十年在科技领域取得的重大成就",
+       "old_pages": [
+        77
+       ],
+       "new_pages": [
+        77
+       ],
+       "old_ranges": {
+        "77": [
+         [
+          884,
+          898
+         ]
+        ]
+       },
+       "new_ranges": {
+        "77": [
+         [
+          884,
+          901
+         ]
+        ]
+       },
+       "context": "显著。(impressive)3⟦⟧值得我们关注。(worthy)4"
+      },
+      {
+       "no": 2,
+       "type": "修改",
+       "old": "该报告揭露了现代医疗体系的不足",
+       "new": "这部电影揭示了战争的可怕，告诉我们要珍爱和平",
+       "old_pages": [
+        77
+       ],
+       "new_pages": [
+        77
+       ],
+       "old_ranges": {
+        "77": [
+         [
+          1026,
+          1041
+         ]
+        ]
+       },
+       "new_ranges": {
+        "77": [
+         [
+          1029,
+          1051
+         ]
+        ]
+       },
+       "context": "(comprehensive)7⟦⟧。(expose)8展馆距市区太"
+      }
+     ]
+    },
+    {
+     "group": 7,
+     "old_pages": [
+      82
+     ],
+     "new_pages": [
+      82
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "Thecountrywasthenenjoyingaperiodofrela",
+       "new": "Chinaplaysaconstruc",
+       "old_pages": [
+        82
+       ],
+       "new_pages": [
+        82
+       ],
+       "old_ranges": {
+        "82": [
+         [
+          294,
+          332
+         ]
+        ]
+       },
+       "new_ranges": {
+        "82": [
+         [
+          294,
+          313
+         ]
+        ]
+       },
+       "context": "strike)feature.4⟦⟧tive____________"
+      },
+      {
+       "no": 2,
+       "type": "新增",
+       "old": "",
+       "new": "roleinsafeguardingworldpeaceandregional",
+       "old_pages": [
+        82
+       ],
+       "new_pages": [
+        82
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "82": [
+         [
+          317,
+          356
+         ]
+        ]
+       },
+       "old_anchor": [
+        82,
+        335,
+        1
+       ],
+       "context": "periodofrelative⟦⟧________________"
+      }
+     ]
+    },
+    {
+     "group": 8,
+     "old_pages": [
+      83
+     ],
+     "new_pages": [
+      83
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "这个国家最近",
+       "new": "那个城市最近几年",
+       "old_pages": [
+        83
+       ],
+       "new_pages": [
+        83
+       ],
+       "old_ranges": {
+        "83": [
+         [
+          983,
+          989
+         ]
+        ]
+       },
+       "new_ranges": {
+        "83": [
+         [
+          983,
+          991
+         ]
+        ]
+       },
+       "context": "兰海岸的小岛。(remote)8⟦⟧经历了巨大的变化。(underg"
+      }
+     ]
+    },
+    {
+     "group": 9,
+     "old_pages": [
+      89
+     ],
+     "new_pages": [
+      89
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "Manyschoolsinthecountrysid",
+       "new": "W",
+       "old_pages": [
+        89
+       ],
+       "new_pages": [
+        89
+       ],
+       "old_ranges": {
+        "89": [
+         [
+          289,
+          315
+         ]
+        ]
+       },
+       "new_ranges": {
+        "89": [
+         [
+          289,
+          290
+         ]
+        ]
+       },
+       "context": "utfor意为“迫切需要”。如：⟦⟧earecryingoutfor"
+      },
+      {
+       "no": 2,
+       "type": "删除",
+       "old": "goodEnglishteachers.许多乡村学校",
+       "new": "",
+       "old_pages": [
+        89
+       ],
+       "new_pages": [
+        89
+       ],
+       "old_ranges": {
+        "89": [
+         [
+          331,
+          357
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        89,
+        306,
+        1
+       ],
+       "context": "earecryingoutfor⟦⟧迫切需要优秀的英语教师。(2)句"
+      },
+      {
+       "no": 3,
+       "type": "修改",
+       "old": "优秀的英语教师",
+       "new": "各个领域的人才",
+       "old_pages": [
+        89
+       ],
+       "new_pages": [
+        89
+       ],
+       "old_ranges": {
+        "89": [
+         [
+          361,
+          368
+         ]
+        ]
+       },
+       "new_ranges": {
+        "89": [
+         [
+          338,
+          345
+         ]
+        ]
+       },
+       "context": "chers.许多乡村学校迫切需要⟦⟧。(2)句中relieve意为“"
+      }
+     ]
+    },
+    {
+     "group": 10,
+     "old_pages": [
+      96
+     ],
+     "new_pages": [
+      96
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "Hisarticlegaveusadeep",
+       "new": "Weshouldexpandourglobalvisionanddevelopkeen",
+       "old_pages": [
+        96
+       ],
+       "new_pages": [
+        96
+       ],
+       "old_ranges": {
+        "96": [
+         [
+          501,
+          522
+         ]
+        ]
+       },
+       "new_ranges": {
+        "96": [
+         [
+          501,
+          544
+         ]
+        ]
+       },
+       "context": "ight意为“洞悉，了解”。如：⟦⟧insightintotheca"
+      },
+      {
+       "no": 2,
+       "type": "修改",
+       "old": "causesofeconomicdep",
+       "new": "trendsofhumandevelopmentandprog",
+       "old_pages": [
+        96
+       ],
+       "new_pages": [
+        96
+       ],
+       "old_ranges": {
+        "96": [
+         [
+          536,
+          555
+         ]
+        ]
+       },
+       "new_ranges": {
+        "96": [
+         [
+          558,
+          589
+         ]
+        ]
+       },
+       "context": "epinsightintothe⟦⟧ression.他的文章使我们对"
+      },
+      {
+       "no": 3,
+       "type": "修改",
+       "old": "ion.他的文章使我们对经济萧条的原因有了深入的理解",
+       "new": ".我们要拓展世界眼光，深刻洞察人类发展进步潮流",
+       "old_pages": [
+        96
+       ],
+       "new_pages": [
+        96
+       ],
+       "old_ranges": {
+        "96": [
+         [
+          559,
+          585
+         ]
+        ]
+       },
+       "new_ranges": {
+        "96": [
+         [
+          593,
+          616
+         ]
+        ]
+       },
+       "context": "feconomicdepress⟦⟧。7Thefirstsectio"
+      }
+     ]
+    },
+    {
+     "group": 11,
+     "old_pages": [
+      97
+     ],
+     "new_pages": [
+      97
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "新增",
+       "old": "",
+       "new": "Afterreturningtohishometown,theyoungman",
+       "old_pages": [
+        97
+       ],
+       "new_pages": [
+        97
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "97": [
+         [
+          188,
+          227
+         ]
+        ]
+       },
+       "old_anchor": [
+        97,
+        188,
+        1
+       ],
+       "context": "ious意为“规模宏大的”。如：⟦⟧cameupwithambiti"
+      },
+      {
+       "no": 2,
+       "type": "新增",
+       "old": "",
+       "new": "an",
+       "old_pages": [
+        97
+       ],
+       "new_pages": [
+        97
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "97": [
+         [
+          237,
+          239
+         ]
+        ]
+       },
+       "old_anchor": [
+        97,
+        199,
+        1
+       ],
+       "context": "”。如：Hecameupwith⟦⟧ambitiousplansfo"
+      },
+      {
+       "no": 3,
+       "type": "删除",
+       "old": "s",
+       "new": "",
+       "old_pages": [
+        97
+       ],
+       "new_pages": [
+        97
+       ],
+       "old_ranges": {
+        "97": [
+         [
+          213,
+          214
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        97,
+        251,
+        1
+       ],
+       "context": "ithambitiousplan⟦⟧forsocialreform."
+      },
+      {
+       "no": 4,
+       "type": "新增",
+       "old": "",
+       "new": "tartinghisownbusiness.回乡后，这个年轻人",
+       "old_pages": [
+        97
+       ],
+       "new_pages": [
+        97
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "97": [
+         [
+          256,
+          287
+         ]
+        ]
+       },
+       "old_anchor": [
+        97,
+        218,
+        1
+       ],
+       "context": "bitiousplansfors⟦⟧提出了宏伟的社会改革计划。(2)"
+      },
+      {
+       "no": 5,
+       "type": "修改",
+       "old": "伟的社会改革",
+       "new": "大的创业",
+       "old_pages": [
+        97
+       ],
+       "new_pages": [
+        97
+       ],
+       "old_ranges": {
+        "97": [
+         [
+          235,
+          241
+         ]
+        ]
+       },
+       "new_ranges": {
+        "97": [
+         [
+          291,
+          295
+         ]
+        ]
+       },
+       "context": "cialreform.他提出了宏⟦⟧计划。(2)句中enormous"
+      }
+     ]
+    },
+    {
+     "group": 12,
+     "old_pages": [
+      99
+     ],
+     "new_pages": [
+      99
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "Theylive",
+       "new": "Shekept",
+       "old_pages": [
+        99
+       ],
+       "new_pages": [
+        99
+       ],
+       "old_ranges": {
+        "99": [
+         [
+          741,
+          749
+         ]
+        ]
+       },
+       "new_ranges": {
+        "99": [
+         [
+          741,
+          748
+         ]
+        ]
+       },
+       "context": ".我们的审美观无时无刻不在变化。⟦⟧inconstantfearof"
+      },
+      {
+       "no": 2,
+       "type": "修改",
+       "old": "fearoflosingtheirjobs.他们时刻处于失业的担忧中",
+       "new": "contactwithherfamilywhileshewasinCanada.她在加拿大时一直和家人保持着联系",
+       "old_pages": [
+        99
+       ],
+       "new_pages": [
+        99
+       ],
+       "old_ranges": {
+        "99": [
+         [
+          759,
+          793
+         ]
+        ]
+       },
+       "new_ranges": {
+        "99": [
+         [
+          758,
+          814
+         ]
+        ]
+       },
+       "context": "eyliveinconstant⟦⟧。5“StoppingbyWoo"
+      }
+     ]
+    },
+    {
+     "group": 13,
+     "old_pages": [
+      121
+     ],
+     "new_pages": [
+      121
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "删除",
+       "old": "g",
+       "new": "",
+       "old_pages": [
+        121
+       ],
+       "new_pages": [
+        121
+       ],
+       "old_ranges": {
+        "121": [
+         [
+          669,
+          670
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        121,
+        669,
+        1
+       ],
+       "context": "地利作曲家）(15)/ˈwʊlf⟦⟧æŋˌɑːmɑːˈdeɪsˈmə"
+      }
+     ]
+    },
+    {
+     "group": 14,
+     "old_pages": [
+      123
+     ],
+     "new_pages": [
+      123
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "TryEverything”《尝试一切》（夏奇拉的歌",
+       "new": "WakaWaka(ThisTimeforAfrica)”《哇咔哇咔（非洲时刻）》（2010年南非世界杯主题",
+       "old_pages": [
+        123
+       ],
+       "new_pages": [
+        123
+       ],
+       "old_ranges": {
+        "123": [
+         [
+          2,
+          28
+         ]
+        ]
+       },
+       "new_ranges": {
+        "123": [
+         [
+          2,
+          55
+         ]
+        ]
+       },
+       "context": "维也纳（奥地利首都）(25)“⟦⟧曲）(27)Disney/ˈdɪ"
+      },
+      {
+       "no": 2,
+       "type": "修改",
+       "old": "Disney/ˈdɪzni/迪士尼公司(27)Zootopia/zuːˈtəʊpɪə/《疯狂动物城》（电影名）",
+       "new": "the2010FIFA/ˈfiːfə/WorldCup2010年国际足联世界杯",
+       "old_pages": [
+        123
+       ],
+       "new_pages": [
+        123
+       ],
+       "old_ranges": {
+        "123": [
+         [
+          34,
+          89
+         ]
+        ]
+       },
+       "new_ranges": {
+        "123": [
+         [
+          61,
+          100
+         ]
+        ]
+       },
+       "context": "试一切》（夏奇拉的歌曲）(27)⟦⟧(27)Shakira/ʃəˈk"
+      },
+      {
+       "no": 3,
+       "type": "删除",
+       "old": "）(27)Gazelle/ɡəˈzel/夏奇羊（《疯狂动物城》中的角色",
+       "new": "",
+       "old_pages": [
+        123
+       ],
+       "new_pages": [
+        123
+       ],
+       "old_ranges": {
+        "123": [
+         [
+          120,
+          155
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        123,
+        130,
+        1
+       ],
+       "context": "kiːrə/夏奇拉（哥伦比亚歌手⟦⟧）(27)TheSoundofM"
+      },
+      {
+       "no": 4,
+       "type": "删除",
+       "old": "g",
+       "new": "",
+       "old_pages": [
+        123
+       ],
+       "new_pages": [
+        123
+       ],
+       "old_ranges": {
+        "123": [
+         [
+          574,
+          575
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        123,
+        550,
+        1
+       ],
+       "context": "）(30)/piˈeə(r)ɒˈ⟦⟧juːstˈrenwɑː(r)/"
+      }
+     ]
+    },
+    {
+     "group": 15,
+     "old_pages": [
+      124
+     ],
+     "new_pages": [
+      124
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "删除",
+       "old": "g",
+       "new": "",
+       "old_pages": [
+        124
+       ],
+       "new_pages": [
+        124
+       ],
+       "old_ranges": {
+        "124": [
+         [
+          851,
+          852
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        124,
+        809,
+        1
+       ],
+       "context": "donByron/dʒɔːdʒˈ⟦⟧ɔːdn乔治·戈登·拜伦（英国诗"
+      }
+     ]
+    },
+    {
+     "group": 16,
+     "old_pages": [
+      125
+     ],
+     "new_pages": [
+      124
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "“LeavingtheWhiteEmperorTown《早发白帝城》（李白的诗歌",
+       "new": "Cathay/kæˈθei/《华夏集》（庞德的诗歌集",
+       "old_pages": [
+        125
+       ],
+       "new_pages": [
+        124
+       ],
+       "old_ranges": {
+        "125": [
+         [
+          0,
+          41
+         ]
+        ]
+       },
+       "new_ranges": {
+        "124": [
+         [
+          1284,
+          1310
+         ]
+        ]
+       },
+       "context": "埃兹拉·庞德（美国诗人）(54)⟦⟧）(54)atDawn”“If—"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "选择性必修 第三册",
+   "old_pdf": "2024/3-英语/普通高中教科书·英语选择性必修 第三册.pdf",
+   "new_pdf": "2026_去水印/英语/译林版/普通高中教科书·英语选择性必修 第三册.pdf",
+   "groups": 15,
+   "changes": 33,
+   "raw_diff_items": 37,
+   "items": [
+    {
+     "group": 1,
+     "old_pages": [
+      3
+     ],
+     "new_pages": [
+      3
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "删除",
+       "old": "©WritingGroupofEnglish,YilinPressandOxfordUniversityPress(China)Limited2019“Oxford”isaregisteredtrademarkofOxfordUniversityPress©《普通高中教科书·英语》编写组、译林出版社和牛津大学出版社（中国）有限公司2019Oxford为牛津大学出版社的注册商标。",
+       "new": "",
+       "old_pages": [
+        3
+       ],
+       "new_pages": [
+        3
+       ],
+       "old_ranges": {
+        "3": [
+         [
+          0,
+          190
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        3,
+        0,
+        0
+       ],
+       "context": "⟦⟧版权所有。未经版权所有人书面许可"
+      },
+      {
+       "no": 2,
+       "type": "删除",
+       "old": "牛津大学出版社（中国）有限公司设计部",
+       "new": "",
+       "old_pages": [
+        3
+       ],
+       "new_pages": [
+        3
+       ],
+       "old_ranges": {
+        "3": [
+         [
+          349,
+          367
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        3,
+        158,
+        1
+       ],
+       "context": "马绯璠朱静亚装帧设计韦枫胡苨黄晨⟦⟧出版译林出版社地址南京市湖南路1"
+      },
+      {
+       "no": 3,
+       "type": "修改",
+       "old": "2年5月第3",
+       "new": "6年6月第11",
+       "old_pages": [
+        3
+       ],
+       "new_pages": [
+        3
+       ],
+       "old_ranges": {
+        "3": [
+         [
+          513,
+          519
+         ]
+        ]
+       },
+       "new_ranges": {
+        "3": [
+         [
+          305,
+          312
+         ]
+        ]
+       },
+       "context": "次2021年6月第1版印次202⟦⟧次印刷标准书号ISBN97875"
+      }
+     ]
+    },
+    {
+     "group": 2,
+     "old_pages": [
+      10
+     ],
+     "new_pages": [
+      10
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "SingaporeandthePacificIslands",
+       "new": "ChinaandcountriesinSouthAsia",
+       "old_pages": [
+        10
+       ],
+       "new_pages": [
+        10
+       ],
+       "old_ranges": {
+        "10": [
+         [
+          329,
+          358
+         ]
+        ]
+       },
+       "new_ranges": {
+        "10": [
+         [
+          329,
+          357
+         ]
+        ]
+       },
+       "context": "uderesidentsfrom⟦⟧.Thisethnicvarie"
+      }
+     ]
+    },
+    {
+     "group": 3,
+     "old_pages": [
+      70
+     ],
+     "new_pages": [
+      70
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "Thecompanyhasmadeahug",
+       "new": "Chinawillincreas",
+       "old_pages": [
+        70
+       ],
+       "new_pages": [
+        70
+       ],
+       "old_ranges": {
+        "70": [
+         [
+          517,
+          538
+         ]
+        ]
+       },
+       "new_ranges": {
+        "70": [
+         [
+          517,
+          533
+         ]
+        ]
+       },
+       "context": "withdailytasks.6⟦⟧e_______________"
+      },
+      {
+       "no": 2,
+       "type": "修改",
+       "old": "productdevelopment",
+       "new": "scienceandtechnologythroughdiversechannels",
+       "old_pages": [
+        70
+       ],
+       "new_pages": [
+        70
+       ],
+       "old_ranges": {
+        "70": [
+         [
+          566,
+          584
+         ]
+        ]
+       },
+       "new_ranges": {
+        "70": [
+         [
+          561,
+          603
+         ]
+        ]
+       },
+       "context": "______(invest)in⟦⟧.7Tohim,travelli"
+      }
+     ]
+    },
+    {
+     "group": 4,
+     "old_pages": [
+      76
+     ],
+     "new_pages": [
+      76
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "Ifthen",
+       "new": "N",
+       "old_pages": [
+        76
+       ],
+       "new_pages": [
+        76
+       ],
+       "old_ranges": {
+        "76": [
+         [
+          469,
+          475
+         ]
+        ]
+       },
+       "new_ranges": {
+        "76": [
+         [
+          469,
+          470
+         ]
+        ]
+       },
+       "context": "hemicalelement.6⟦⟧ewmethod________"
+      },
+      {
+       "no": 2,
+       "type": "修改",
+       "old": "thod",
+       "new": "asureswill",
+       "old_pages": [
+        76
+       ],
+       "new_pages": [
+        76
+       ],
+       "old_ranges": {
+        "76": [
+         [
+          479,
+          483
+         ]
+        ]
+       },
+       "new_ranges": {
+        "76": [
+         [
+          474,
+          484
+         ]
+        ]
+       },
+       "context": "ment.6Ifthenewme⟦⟧________________"
+      },
+      {
+       "no": 3,
+       "type": "修改",
+       "old": ",wecanworkmoreefficiently",
+       "new": "topushforwardthehigh-qualitydevelopmentofruraltourism",
+       "old_pages": [
+        76
+       ],
+       "new_pages": [
+        76
+       ],
+       "old_ranges": {
+        "76": [
+         [
+          500,
+          525
+         ]
+        ]
+       },
+       "new_ranges": {
+        "76": [
+         [
+          501,
+          554
+         ]
+        ]
+       },
+       "context": "________________⟦⟧.7Morecooperatio"
+      },
+      {
+       "no": 4,
+       "type": "删除",
+       "old": "Theplanecrashed,killingall212passengers",
+       "new": "",
+       "old_pages": [
+        76
+       ],
+       "new_pages": [
+        76
+       ],
+       "old_ranges": {
+        "76": [
+         [
+          671,
+          710
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        76,
+        700,
+        1
+       ],
+       "context": "oartists’works.9⟦⟧________________"
+      },
+      {
+       "no": 5,
+       "type": "新增",
+       "old": "",
+       "new": "theshipandsetoffforourhometown",
+       "old_pages": [
+        76
+       ],
+       "new_pages": [
+        76
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "76": [
+         [
+          725,
+          755
+         ]
+        ]
+       },
+       "old_anchor": [
+        76,
+        726,
+        1
+       ],
+       "context": "________________⟦⟧.10Thevolcanoeru"
+      }
+     ]
+    },
+    {
+     "group": 5,
+     "old_pages": [
+      82
+     ],
+     "new_pages": [
+      82
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "surpriseattac",
+       "new": "Three-River-SourceNationalPar",
+       "old_pages": [
+        82
+       ],
+       "new_pages": [
+        82
+       ],
+       "old_ranges": {
+        "82": [
+         [
+          1212,
+          1225
+         ]
+        ]
+       },
+       "new_ranges": {
+        "82": [
+         [
+          1212,
+          1241
+         ]
+        ]
+       },
+       "context": "___________.6The⟦⟧k_______________"
+      },
+      {
+       "no": 2,
+       "type": "修改",
+       "old": "warningtothewholenat",
+       "new": "nimportantecologicalshelterinthisreg",
+       "old_pages": [
+        82
+       ],
+       "new_pages": [
+        82
+       ],
+       "old_ranges": {
+        "82": [
+         [
+          1250,
+          1270
+         ]
+        ]
+       },
+       "new_ranges": {
+        "82": [
+         [
+          1266,
+          1302
+         ]
+        ]
+       },
+       "context": "_______________a⟦⟧ion.7Theydecided"
+      }
+     ]
+    },
+    {
+     "group": 6,
+     "old_pages": [
+      83
+     ],
+     "new_pages": [
+      83
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "要",
+       "new": "就能",
+       "old_pages": [
+        83
+       ],
+       "new_pages": [
+        83
+       ],
+       "old_ranges": {
+        "83": [
+         [
+          1128,
+          1129
+         ]
+        ]
+       },
+       "new_ranges": {
+        "83": [
+         [
+          1128,
+          1130
+         ]
+        ]
+       },
+       "context": "(reminder)7一想到今天⟦⟧完成这个任务，我就感到焦虑。(a"
+      },
+      {
+       "no": 2,
+       "type": "修改",
+       "old": "感到焦虑",
+       "new": "满心激动",
+       "old_pages": [
+        83
+       ],
+       "new_pages": [
+        83
+       ],
+       "old_ranges": {
+        "83": [
+         [
+          1138,
+          1142
+         ]
+        ]
+       },
+       "new_ranges": {
+        "83": [
+         [
+          1139,
+          1143
+         ]
+        ]
+       },
+       "context": "7一想到今天要完成这个任务，我就⟦⟧。(atthethoughtof"
+      }
+     ]
+    },
+    {
+     "group": 7,
+     "old_pages": [
+      94
+     ],
+     "new_pages": [
+      94
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "Lucyhasalways",
+       "new": "chinesepeople",
+       "old_pages": [
+        94
+       ],
+       "new_pages": [
+        94
+       ],
+       "old_ranges": {
+        "94": [
+         [
+          982,
+          995
+         ]
+        ]
+       },
+       "new_ranges": {
+        "94": [
+         [
+          982,
+          995
+         ]
+        ]
+       },
+       "context": "th、longforsth。如：⟦⟧longedforanewcar"
+      },
+      {
+       "no": 2,
+       "type": "修改",
+       "old": "edforanewcar.露西一直渴望有辆新车",
+       "new": "forworldpeaceanddevelopment.中国人民渴求世界和平与发展",
+       "old_pages": [
+        94
+       ],
+       "new_pages": [
+        94
+       ],
+       "old_ranges": {
+        "94": [
+         [
+          999,
+          1022
+         ]
+        ]
+       },
+       "new_ranges": {
+        "94": [
+         [
+          999,
+          1040
+         ]
+        ]
+       },
+       "context": "ucyhasalwayslong⟦⟧。15Shockabsorber"
+      }
+     ]
+    },
+    {
+     "group": 8,
+     "old_pages": [
+      95
+     ],
+     "new_pages": [
+      95
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "空",
+       "new": "天产",
+       "old_pages": [
+        95
+       ],
+       "new_pages": [
+        95
+       ],
+       "old_ranges": {
+        "95": [
+         [
+          197,
+          198
+         ]
+        ]
+       },
+       "new_ranges": {
+        "95": [
+         [
+          197,
+          199
+         ]
+        ]
+       },
+       "context": "e26,lines41–42)航⟦⟧业中的职业远不只是受到媒体广泛报"
+      }
+     ]
+    },
+    {
+     "group": 9,
+     "old_pages": [
+      97
+     ],
+     "new_pages": [
+      97
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "新增",
+       "old": "",
+       "new": "ofthecompany",
+       "old_pages": [
+        97
+       ],
+       "new_pages": [
+        97
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "97": [
+         [
+          258,
+          270
+         ]
+        ]
+       },
+       "old_anchor": [
+        97,
+        257,
+        1
+       ],
+       "context": "eedhimaschairman⟦⟧.戴维几乎确定要接替他担任主席。"
+      },
+      {
+       "no": 2,
+       "type": "修改",
+       "old": "主席",
+       "new": "公司董事长",
+       "old_pages": [
+        97
+       ],
+       "new_pages": [
+        97
+       ],
+       "old_ranges": {
+        "97": [
+         [
+          271,
+          273
+         ]
+        ]
+       },
+       "new_ranges": {
+        "97": [
+         [
+          283,
+          288
+         ]
+        ]
+       },
+       "context": "man.戴维几乎确定要接替他担任⟦⟧。(2)句中facilitate"
+      }
+     ]
+    },
+    {
+     "group": 10,
+     "old_pages": [
+      98
+     ],
+     "new_pages": [
+      98
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "becauseIhavetowalka",
+       "new": "dueto",
+       "old_pages": [
+        98
+       ],
+       "new_pages": [
+        98
+       ],
+       "old_ranges": {
+        "98": [
+         [
+          959,
+          978
+         ]
+        ]
+       },
+       "new_ranges": {
+        "98": [
+         [
+          959,
+          964
+         ]
+        ]
+       },
+       "context": "hoeshaveworndown⟦⟧longdistancetosc"
+      },
+      {
+       "no": 2,
+       "type": "修改",
+       "old": "distancetoschooleachday.",
+       "new": "-termuse.由于穿了很久，",
+       "old_pages": [
+        98
+       ],
+       "new_pages": [
+        98
+       ],
+       "old_ranges": {
+        "98": [
+         [
+          982,
+          1006
+         ]
+        ]
+       },
+       "new_ranges": {
+        "98": [
+         [
+          968,
+          984
+         ]
+        ]
+       },
+       "context": "Ihavetowalkalong⟦⟧我的鞋已经磨坏了，因为我每天必须"
+      },
+      {
+       "no": 3,
+       "type": "删除",
+       "old": "，因为我每天必须走很远的路去上学",
+       "new": "",
+       "old_pages": [
+        98
+       ],
+       "new_pages": [
+        98
+       ],
+       "old_ranges": {
+        "98": [
+         [
+          1014,
+          1030
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        98,
+        991,
+        1
+       ],
+       "context": "eachday.我的鞋已经磨坏了⟦⟧。4Naturaldisaste"
+      }
+     ]
+    },
+    {
+     "group": 11,
+     "old_pages": [
+      99
+     ],
+     "new_pages": [
+      99
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "新增",
+       "old": "",
+       "new": "ourvillage,high-qualitydevelop",
+       "old_pages": [
+        99
+       ],
+       "new_pages": [
+        99
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "99": [
+         [
+          700,
+          730
+         ]
+        ]
+       },
+       "old_anchor": [
+        99,
+        700,
+        1
+       ],
+       "context": "da意为“当务之急”。如：For⟦⟧ment,healthcarei"
+      },
+      {
+       "no": 2,
+       "type": "删除",
+       "old": ",healthcare",
+       "new": "",
+       "old_pages": [
+        99
+       ],
+       "new_pages": [
+        99
+       ],
+       "old_ranges": {
+        "99": [
+         [
+          713,
+          724
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        99,
+        733,
+        1
+       ],
+       "context": "Forthegovernment⟦⟧isnowatthetopoft"
+      },
+      {
+       "no": 3,
+       "type": "修改",
+       "old": "政府来说，医疗服务",
+       "new": "我们村来说，高质量发展",
+       "old_pages": [
+        99
+       ],
+       "new_pages": [
+        99
+       ],
+       "old_ranges": {
+        "99": [
+         [
+          750,
+          759
+         ]
+        ]
+       },
+       "new_ranges": {
+        "99": [
+         [
+          760,
+          771
+         ]
+        ]
+       },
+       "context": "topoftheagenda.对⟦⟧现在是当务之急。7Ifyourh"
+      }
+     ]
+    },
+    {
+     "group": 12,
+     "old_pages": [
+      100
+     ],
+     "new_pages": [
+      100
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "Dueto",
+       "new": "Wecanclearlysee",
+       "old_pages": [
+        100
+       ],
+       "new_pages": [
+        100
+       ],
+       "old_ranges": {
+        "100": [
+         [
+          1,
+          6
+         ]
+        ]
+       },
+       "new_ranges": {
+        "100": [
+         [
+          1,
+          16
+         ]
+        ]
+       },
+       "context": "事实，它们建于公元前13世纪。⟦⟧thefactthatsmoki"
+      },
+      {
+       "no": 2,
+       "type": "修改",
+       "old": "smokingdoesharmtohealth,weshouldsaynotosmoking.由于吸烟有害健康",
+       "new": "chinahasworkedcontinuouslytobringaboutanall-aroundimprovementinpeople’slives.我们能清楚地看到",
+       "old_pages": [
+        100
+       ],
+       "new_pages": [
+        100
+       ],
+       "old_ranges": {
+        "100": [
+         [
+          17,
+          72
+         ]
+        ]
+       },
+       "new_ranges": {
+        "100": [
+         [
+          27,
+          112
+         ]
+        ]
+       },
+       "context": "Duetothefactthat⟦⟧这一事实，我们应该对吸烟说不。("
+      },
+      {
+       "no": 3,
+       "type": "新增",
+       "old": "",
+       "new": "中国持续用力，全方位改善人民生活",
+       "old_pages": [
+        100
+       ],
+       "new_pages": [
+        100
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "100": [
+         [
+          117,
+          133
+         ]
+        ]
+       },
+       "old_anchor": [
+        100,
+        77,
+        1
+       ],
+       "context": "ng.由于吸烟有害健康这一事实，⟦⟧。(2)句中division意为"
+      }
+     ]
+    },
+    {
+     "group": 13,
+     "old_pages": [
+      102
+     ],
+     "new_pages": [
+      102
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "havebeentomanybigcities,all",
+       "new": "n2020,thedeep-seamannedsubmersibleFendouzhecompletedthirteensuccessfuldives,eight",
+       "old_pages": [
+        102
+       ],
+       "new_pages": [
+        102
+       ],
+       "old_ranges": {
+        "102": [
+         [
+          485,
+          512
+         ]
+        ]
+       },
+       "new_ranges": {
+        "102": [
+         [
+          485,
+          566
+         ]
+        ]
+       },
+       "context": "regoingonadiet.I⟦⟧ofwhichhavelefta"
+      },
+      {
+       "no": 2,
+       "type": "修改",
+       "old": "haveleftadeepimpressiononme",
+       "new": "exceededadepthof10,000metres",
+       "old_pages": [
+        102
+       ],
+       "new_pages": [
+        102
+       ],
+       "old_ranges": {
+        "102": [
+         [
+          519,
+          546
+         ]
+        ]
+       },
+       "new_ranges": {
+        "102": [
+         [
+          573,
+          601
+         ]
+        ]
+       },
+       "context": "ities,allofwhich⟦⟧.4as引导非限制性定语从句时，"
+      }
+     ]
+    },
+    {
+     "group": 14,
+     "old_pages": [
+      119
+     ],
+     "new_pages": [
+      119
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "删除",
+       "old": "ingapore/ˌsɪŋəˈpɔː(r)/新加坡(3)thePacificIslands太平洋岛屿",
+       "new": "",
+       "old_pages": [
+        119
+       ],
+       "new_pages": [
+        119
+       ],
+       "old_ranges": {
+        "119": [
+         [
+          760,
+          810
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        119,
+        760,
+        1
+       ],
+       "context": "h/frentʃ/法国人(3)S⟦⟧(3)Vancouver/væn"
+      }
+     ]
+    },
+    {
+     "group": 15,
+     "old_pages": [
+      129
+     ],
+     "new_pages": [
+      129
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "2年）0102",
+       "new": "6年）0073",
+       "old_pages": [
+        129
+       ],
+       "new_pages": [
+        129
+       ],
+       "old_ranges": {
+        "129": [
+         [
+          19,
+          26
+         ]
+        ]
+       },
+       "new_ranges": {
+        "129": [
+         [
+          19,
+          26
+         ]
+        ]
+       },
+       "context": "9.74元审批号：苏费核（202⟦⟧号举报电话：12315"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "选择性必修 第二册",
+   "old_pdf": "2024/3-英语/普通高中教科书·英语选择性必修 第二册.pdf",
+   "new_pdf": "2026_去水印/英语/译林版/普通高中教科书·英语选择性必修 第二册.pdf",
+   "groups": 0,
+   "changes": 0,
+   "raw_diff_items": 0,
+   "items": []
+  },
+  {
+   "name": "选择性必修 第四册",
+   "old_pdf": "2024/3-英语/普通高中教科书·英语选择性必修 第四册.pdf",
+   "new_pdf": "2026_去水印/英语/译林版/普通高中教科书·英语选择性必修 第四册.pdf",
+   "groups": 0,
+   "changes": 0,
+   "raw_diff_items": 0,
+   "items": []
+  }
+ ]
+}

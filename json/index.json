@@ -1,0 +1,131 @@
+{
+ "generated_for": "高中教材 2024 版 ⇄ 2026 版 改动页对照",
+ "fields": {
+  "group": "改动组序号（与 PDF 里「改动组 N / M」一致）",
+  "old_pages / new_pages": "该组涉及的旧版 / 新版页码（1-based）",
+  "changes[].type": "修改 / 新增 / 删除",
+  "changes[].old / new": "旧版 / 新版文字（已剔除书眉、图表内部文字等噪声）",
+  "changes[].count": "同页完全相同的改动合并数（PDF 里显示 ×N），无该字段即为 1",
+  "changes[].old_ranges / new_ranges": "标红区间：页号 → [[起始字符序号, 结束字符序号]]",
+  "changes[].old_anchor / new_anchor": "纯新增/删除时的位置锚点 [页号, 字符序号, 0|1]，1 表示画在前一字符右边缘",
+  "changes[].context": "差异处上下文，“⟦⟧” 标出插入/删除位置",
+  "whole": "该组是整篇新增/整篇删除（值即 新增 / 删除）"
+ },
+ "subjects": [
+  {
+   "subject": "语文·统编版",
+   "file": "语文·统编版.json",
+   "books": 5,
+   "groups": 47,
+   "changes": 82,
+   "not_included": []
+  },
+  {
+   "subject": "数学·苏教版",
+   "file": "数学·苏教版.json",
+   "books": 4,
+   "groups": 9,
+   "changes": 20,
+   "not_included": []
+  },
+  {
+   "subject": "英语·译林版",
+   "file": "英语·译林版.json",
+   "books": 7,
+   "groups": 40,
+   "changes": 90,
+   "not_included": []
+  },
+  {
+   "subject": "物理·人教版",
+   "file": "物理·人教版.json",
+   "books": 6,
+   "groups": 23,
+   "changes": 41,
+   "not_included": []
+  },
+  {
+   "subject": "化学·苏教版",
+   "file": "化学·苏教版.json",
+   "books": 5,
+   "groups": 56,
+   "changes": 108,
+   "not_included": []
+  },
+  {
+   "subject": "生物·苏教版",
+   "file": "生物·苏教版.json",
+   "books": 5,
+   "groups": 12,
+   "changes": 22,
+   "not_included": []
+  },
+  {
+   "subject": "生物·人教版",
+   "file": "生物·人教版.json",
+   "books": 5,
+   "groups": 63,
+   "changes": 91,
+   "not_included": []
+  },
+  {
+   "subject": "数学·人教A版",
+   "file": "数学·人教A版.json",
+   "books": 5,
+   "groups": 94,
+   "changes": 143,
+   "not_included": []
+  },
+  {
+   "subject": "数学·人教B版",
+   "file": "数学·人教B版.json",
+   "books": 3,
+   "groups": 11,
+   "changes": 19,
+   "not_included": [
+    "普通高中教科书·数学（B版）必修 第一册.pdf",
+    "普通高中教科书·数学（B版）必修 第三册.pdf",
+    "普通高中教科书·数学（B版）必修 第二册.pdf",
+    "普通高中教科书·数学（B版）必修 第四册.pdf"
+   ]
+  },
+  {
+   "subject": "地理·人教版",
+   "file": "地理·人教版.json",
+   "books": 5,
+   "groups": 88,
+   "changes": 147,
+   "not_included": []
+  },
+  {
+   "subject": "地理·鲁教版",
+   "file": "地理·鲁教版.json",
+   "books": 5,
+   "groups": 9,
+   "changes": 13,
+   "not_included": []
+  },
+  {
+   "subject": "思想政治·统编版",
+   "file": "思想政治·统编版.json",
+   "books": 8,
+   "groups": 346,
+   "changes": 1088,
+   "not_included": []
+  },
+  {
+   "subject": "历史·统编版",
+   "file": "历史·统编版.json",
+   "books": 5,
+   "groups": 164,
+   "changes": 286,
+   "not_included": []
+  }
+ ],
+ "totals": {
+  "subjects": 13,
+  "books": 68,
+  "groups": 962,
+  "changes": 2150
+ }
+}

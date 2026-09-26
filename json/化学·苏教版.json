@@ -1,0 +1,3523 @@
+{
+ "subject": "化学·苏教版",
+ "key": "D化学苏教",
+ "old_dir": "2024/5-化学",
+ "new_dir": "2026_去水印/化学/苏教版",
+ "totals": {
+  "books": 5,
+  "groups": 56,
+  "changes": 108
+ },
+ "not_included": [],
+ "books": [
+  {
+   "name": "必修 第一册",
+   "old_pdf": "2024/5-化学/普通高中教科书·化学必修 第一册.pdf",
+   "new_pdf": "2026_去水印/化学/苏教版/普通高中教科书·化学必修 第一册.pdf",
+   "groups": 9,
+   "changes": 27,
+   "raw_diff_items": 109,
+   "items": [
+    {
+     "group": 1,
+     "old_pages": [
+      3
+     ],
+     "new_pages": [
+      3
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "删除",
+       "old": "”已经成为我国可持续发展的基本国策",
+       "new": "",
+       "old_pages": [
+        3
+       ],
+       "new_pages": [
+        3
+       ],
+       "old_ranges": {
+        "3": [
+         [
+          512,
+          529
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        3,
+        511,
+        1
+       ],
+       "context": "们开创了绿色化学时代。“绿色发展⟦⟧。我们正在努力并且已经能够做到："
+      }
+     ]
+    },
+    {
+     "group": 2,
+     "old_pages": [
+      11
+     ],
+     "new_pages": [
+      11
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "氧化铁和一氧化碳能",
+       "new": "红热的铁能与水蒸气",
+       "old_pages": [
+        11
+       ],
+       "new_pages": [
+        11
+       ],
+       "old_ranges": {
+        "11": [
+         [
+          378,
+          387
+         ]
+        ]
+       },
+       "new_ranges": {
+        "11": [
+         [
+          378,
+          387
+         ]
+        ]
+       },
+       "context": "需要一定的条件。如在高温条件下，⟦⟧发生反应，生成铁和二氧化碳，反应"
+      },
+      {
+       "no": 2,
+       "type": "修改",
+       "old": "铁和二氧化碳",
+       "new": "四氧化三铁和氢气",
+       "old_pages": [
+        11
+       ],
+       "new_pages": [
+        11
+       ],
+       "old_ranges": {
+        "11": [
+         [
+          394,
+          400
+         ]
+        ]
+       },
+       "new_ranges": {
+        "11": [
+         [
+          394,
+          402
+         ]
+        ]
+       },
+       "context": "氧化铁和一氧化碳能发生反应，生成⟦⟧，反应中金属氧化物中的金属元素转"
+      },
+      {
+       "no": 3,
+       "type": "修改",
+       "old": "金属氧化物中的金属元素转化为金属单质",
+       "new": "单质转化为化合物",
+       "old_pages": [
+        11
+       ],
+       "new_pages": [
+        11
+       ],
+       "old_ranges": {
+        "11": [
+         [
+          404,
+          422
+         ]
+        ]
+       },
+       "new_ranges": {
+        "11": [
+         [
+          406,
+          414
+         ]
+        ]
+       },
+       "context": "生反应，生成铁和二氧化碳，反应中⟦⟧。煅烧碳酸钙可以得到氧化钙和二氧"
+      }
+     ]
+    },
+    {
+     "group": 3,
+     "old_pages": [
+      23
+     ],
+     "new_pages": [
+      23
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "新增",
+       "old": "",
+       "new": "0n",
+       "old_pages": [
+        23
+       ],
+       "new_pages": [
+        23
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "23": [
+         [
+          528,
+          530
+         ]
+        ]
+       },
+       "old_anchor": [
+        23,
+        527,
+        1
+       ],
+       "context": "，我们把分散质粒子的直径大于10⟦⟧m的分散系叫作浊液（悬浊液或乳浊"
+      },
+      {
+       "no": 2,
+       "type": "新增",
+       "old": "",
+       "new": "~100n",
+       "old_pages": [
+        23
+       ],
+       "new_pages": [
+        23
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "23": [
+         [
+          559,
+          564
+         ]
+        ]
+       },
+       "old_anchor": [
+        23,
+        557,
+        1
+       ],
+       "context": "或乳浊液），分散质粒子的直径在1⟦⟧m之间的分散系叫作胶体（coll"
+      },
+      {
+       "no": 3,
+       "type": "新增",
+       "old": "",
+       "new": "n",
+       "old_pages": [
+        23
+       ],
+       "new_pages": [
+        23
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "23": [
+         [
+          596,
+          597
+         ]
+        ]
+       },
+       "old_anchor": [
+        23,
+        593,
+        1
+       ],
+       "context": "oid），分散质粒子的直径小于1⟦⟧m的分散系叫作溶液。常见的分散系"
+      }
+     ]
+    },
+    {
+     "group": 4,
+     "old_pages": [
+      38
+     ],
+     "new_pages": [
+      38
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "新增",
+       "old": "",
+       "new": "、猴疟疟原虫的抑制率达到100%",
+       "old_pages": [
+        38
+       ],
+       "new_pages": [
+        38
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "38": [
+         [
+          198,
+          214
+         ]
+        ]
+       },
+       "old_anchor": [
+        38,
+        198,
+        1
+       ],
+       "context": "是改用乙醚萃取，所得提取物对鼠疟⟦⟧。在经历了190多次失败后，青蒿"
+      },
+      {
+       "no": 2,
+       "type": "删除",
+       "old": "。这剂新药对鼠疟、猴疟疟原虫的抑制率达到100%",
+       "new": "",
+       "old_pages": [
+        38
+       ],
+       "new_pages": [
+        38
+       ],
+       "old_ranges": {
+        "38": [
+         [
+          228,
+          252
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        38,
+        236,
+        1
+       ],
+       "context": "0多次失败后，青蒿素分离获得成功⟦⟧。2015年10月，屠呦呦因采用"
+      }
+     ]
+    },
+    {
+     "group": 5,
+     "old_pages": [
+      53
+     ],
+     "new_pages": [
+      53
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "ma",
+       "new": "-Man",
+       "old_pages": [
+        53
+       ],
+       "new_pages": [
+        53
+       ],
+       "old_ranges": {
+        "53": [
+         [
+          271,
+          273
+         ]
+        ]
+       },
+       "new_ranges": {
+        "53": [
+         [
+          271,
+          275
+         ]
+        ]
+       },
+       "context": "，美国科学家盖尔曼（M.Gell⟦⟧n）提出质子、中子由更小的夸克构"
+      },
+      {
+       "no": 2,
+       "type": "修改",
+       "old": "达",
+       "new": "德",
+       "old_pages": [
+        53
+       ],
+       "new_pages": [
+        53
+       ],
+       "old_ranges": {
+        "53": [
+         [
+          346,
+          347
+         ]
+        ]
+       },
+       "new_ranges": {
+        "53": [
+         [
+          348,
+          349
+         ]
+        ]
+       },
+       "context": "德曼（J.Friedman）、肯⟦⟧尔（H.Kendall）、泰勒（"
+      }
+     ]
+    },
+    {
+     "group": 6,
+     "old_pages": [
+      112
+     ],
+     "new_pages": [
+      112
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "2.5，直",
+       "new": "，粒",
+       "old_pages": [
+        112
+       ],
+       "new_pages": [
+        112
+       ],
+       "old_ranges": {
+        "112": [
+         [
+          101,
+          106
+         ]
+        ]
+       },
+       "new_ranges": {
+        "112": [
+         [
+          101,
+          103
+         ]
+        ]
+       },
+       "context": "的大小可以将其分为细颗粒物（PM⟦⟧径小于2.5μm）、可吸入颗粒物"
+      },
+      {
+       "no": 2,
+       "type": "修改",
+       "old": "10，直",
+       "new": "，粒",
+       "old_pages": [
+        112
+       ],
+       "new_pages": [
+        112
+       ],
+       "old_ranges": {
+        "112": [
+         [
+          125,
+          129
+         ]
+        ]
+       },
+       "new_ranges": {
+        "112": [
+         [
+          122,
+          124
+         ]
+        ]
+       },
+       "context": "2.5μm）、可吸入颗粒物（PM⟦⟧径小于10μm）等。分析悬浮在空"
+      },
+      {
+       "no": 3,
+       "type": "新增",
+       "old": "",
+       "new": "与PM",
+       "old_pages": [
+        112
+       ],
+       "new_pages": [
+        112
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "112": [
+         [
+          479,
+          482
+         ]
+        ]
+       },
+       "old_anchor": [
+        112,
+        487,
+        1
+       ],
+       "context": "地PM2.5的组成图4-13PM⟦⟧的大小1.空气中的下列物质，不"
+      }
+     ]
+    },
+    {
+     "group": 7,
+     "old_pages": [
+      125,
+      126
+     ],
+     "new_pages": [
+      126
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "删除",
+       "old": "有时Al(OH)与NaOH溶液反应的产物也用偏铝酸钠（NaAlO）和水来表示。",
+       "new": "",
+       "old_pages": [
+        125,
+        126
+       ],
+       "new_pages": [
+        126
+       ],
+       "old_ranges": {
+        "125": [
+         [
+          892,
+          931
+         ]
+        ],
+        "126": [
+         [
+          0,
+          1
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        126,
+        0,
+        1
+       ],
+       "context": "l(OH)]称为四羟基合铝酸钠。⟦⟧将已知元素中电子层数相同的元素按"
+      }
+     ]
+    },
+    {
+     "group": 8,
+     "old_pages": [
+      126
+     ],
+     "new_pages": [
+      126
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "发现",
+       "new": "与",
+       "old_pages": [
+        126
+       ],
+       "new_pages": [
+        126
+       ],
+       "old_ranges": {
+        "126": [
+         [
+          126,
+          128
+         ]
+        ]
+       },
+       "new_ranges": {
+        "126": [
+         [
+          131,
+          132
+         ]
+        ]
+       },
+       "context": "в，1834—1907）门捷列夫⟦⟧元素周期表在19世纪中叶，俄国化"
+      }
+     ]
+    },
+    {
+     "group": 9,
+     "old_pages": [
+      153
+     ],
+     "new_pages": [
+      153
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "FrGaGd",
+       "new": "Ga",
+       "old_pages": [
+        153
+       ],
+       "new_pages": [
+        153
+       ],
+       "old_ranges": {
+        "153": [
+         [
+          133,
+          139
+         ]
+        ]
+       },
+       "new_ranges": {
+        "153": [
+         [
+          133,
+          135
+         ]
+        ]
+       },
+       "context": "sDyErEsEuFFeFlFm⟦⟧锕银铝镅氩砷砹金硼钡铍铋锫溴碳钙"
+      },
+      {
+       "no": 2,
+       "type": "修改",
+       "old": "钫镓钆",
+       "new": "镓",
+       "old_pages": [
+        153
+       ],
+       "new_pages": [
+        153
+       ],
+       "old_ranges": {
+        "153": [
+         [
+          171,
+          174
+         ]
+        ]
+       },
+       "new_ranges": {
+        "153": [
+         [
+          167,
+          168
+         ]
+        ]
+       },
+       "context": "镉铈锎氯锔钴铬铯铜镝铒锿铕氟铁镄⟦⟧[227]107.8682(2)"
+      },
+      {
+       "no": 3,
+       "type": "新增",
+       "old": "",
+       "new": "Gd",
+       "old_pages": [
+        153
+       ],
+       "new_pages": [
+        153
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "153": [
+         [
+          552,
+          554
+         ]
+        ]
+       },
+       "old_anchor": [
+        153,
+        502,
+        1
+       ],
+       "context": "7][223]69.723(1)⟦⟧GeHHeHfHgHoHsIIn"
+      },
+      {
+       "no": 4,
+       "type": "删除",
+       "old": "LvMc",
+       "new": "",
+       "old_pages": [
+        153
+       ],
+       "new_pages": [
+        153
+       ],
+       "old_ranges": {
+        "153": [
+         [
+          540,
+          544
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        153,
+        582,
+        1
+       ],
+       "context": "IInIrKKrLaLiLuLr⟦⟧MdMgMnMoMtNNaNbN"
+      },
+      {
+       "no": 5,
+       "type": "删除",
+       "old": "hN",
+       "new": "",
+       "old_pages": [
+        153
+       ],
+       "new_pages": [
+        153
+       ],
+       "old_ranges": {
+        "153": [
+         [
+          564,
+          566
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        153,
+        602,
+        1
+       ],
+       "context": "MnMoMtNNaNbNdNeN⟦⟧iNoNpOOgOsPPaPbP"
+      },
+      {
+       "no": 6,
+       "type": "删除",
+       "old": "Og",
+       "new": "",
+       "old_pages": [
+        153
+       ],
+       "new_pages": [
+        153
+       ],
+       "old_ranges": {
+        "153": [
+         [
+          572,
+          574
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        153,
+        608,
+        1
+       ],
+       "context": "aNbNdNeNhNiNoNpO⟦⟧OsPPaPbPdPm锗氢氦铪汞"
+      },
+      {
+       "no": 7,
+       "type": "新增",
+       "old": "",
+       "new": "Po钆",
+       "old_pages": [
+        153
+       ],
+       "new_pages": [
+        153
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "153": [
+         [
+          620,
+          623
+         ]
+        ]
+       },
+       "old_anchor": [
+        153,
+        584,
+        1
+       ],
+       "context": "NpOOgOsPPaPbPdPm⟦⟧锗氢氦铪汞钬碘铟铱钾氪镧锂镥铹镆"
+      },
+      {
+       "no": 8,
+       "type": "删除",
+       "old": "镆",
+       "new": "",
+       "old_pages": [
+        153
+       ],
+       "new_pages": [
+        153
+       ],
+       "old_ranges": {
+        "153": [
+         [
+          600,
+          601
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        153,
+        637,
+        1
+       ],
+       "context": "m锗氢氦铪汞钬碘铟铱钾氪镧锂镥铹⟦⟧钔镁锰钼氮钠铌钕氖镍锘镎氧锇磷镤"
+      },
+      {
+       "no": 9,
+       "type": "删除",
+       "old": "5]Po",
+       "new": "",
+       "old_pages": [
+        153
+       ],
+       "new_pages": [
+        153
+       ],
+       "old_ranges": {
+        "153": [
+         [
+          964,
+          968
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        153,
+        1010,
+        1
+       ],
+       "context": "2(1)106.42(1)[14⟦⟧PrPtPuRaRbReRfRg"
+      },
+      {
+       "no": 10,
+       "type": "删除",
+       "old": "Ts",
+       "new": "",
+       "old_pages": [
+        153
+       ],
+       "new_pages": [
+        153
+       ],
+       "old_ranges": {
+        "153": [
+         [
+          1023,
+          1025
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        153,
+        1083,
+        1
+       ],
+       "context": "TaTbTcTeThTiTlTm⟦⟧UVWXeYYbZnZr钋镨铂钚"
+      },
+      {
+       "no": 11,
+       "type": "删除",
+       "old": "钋",
+       "new": "",
+       "old_pages": [
+        153
+       ],
+       "new_pages": [
+        153
+       ],
+       "old_ranges": {
+        "153": [
+         [
+          1037,
+          1038
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        153,
+        1095,
+        1
+       ],
+       "context": "TmTsUVWXeYYbZnZr⟦⟧镨铂钚镭铷铼铑氡钌硫锑钪硒硅钐锡"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "必修 第二册",
+   "old_pdf": "2024/5-化学/普通高中教科书·化学必修 第二册.pdf",
+   "new_pdf": "2026_去水印/化学/苏教版/普通高中教科书·化学必修 第二册.pdf",
+   "groups": 13,
+   "changes": 24,
+   "raw_diff_items": 106,
+   "items": [
+    {
+     "group": 1,
+     "old_pages": [
+      3
+     ],
+     "new_pages": [
+      4
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "删除",
+       "old": "”已经成为我国可持续发展的基本国策",
+       "new": "",
+       "old_pages": [
+        3
+       ],
+       "new_pages": [
+        4
+       ],
+       "old_ranges": {
+        "3": [
+         [
+          512,
+          529
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        4,
+        511,
+        1
+       ],
+       "context": "们开创了绿色化学时代。“绿色发展⟦⟧。我们正在努力并且已经能够做到："
+      }
+     ]
+    },
+    {
+     "group": 2,
+     "old_pages": [
+      19
+     ],
+     "new_pages": [
+      20
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "删除",
+       "old": "作",
+       "new": "",
+       "old_pages": [
+        19
+       ],
+       "new_pages": [
+        20
+       ],
+       "old_ranges": {
+        "19": [
+         [
+          330,
+          331
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        20,
+        329,
+        1
+       ],
+       "context": "人类自从学会了用火，便以草、木等⟦⟧为燃料，利用燃烧放出的热从事各种"
+      }
+     ]
+    },
+    {
+     "group": 3,
+     "old_pages": [
+      24
+     ],
+     "new_pages": [
+      25
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "新增",
+       "old": "",
+       "new": "约",
+       "old_pages": [
+        24
+       ],
+       "new_pages": [
+        25
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "25": [
+         [
+          442,
+          443
+         ]
+        ]
+       },
+       "old_anchor": [
+        24,
+        441,
+        1
+       ],
+       "context": "烧多少千克煤炭？（已知煤炭的热值⟦⟧为33kJ·g）8.我国煤炭的年"
+      }
+     ]
+    },
+    {
+     "group": 4,
+     "old_pages": [
+      30
+     ],
+     "new_pages": [
+      31
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "删除",
+       "old": "作",
+       "new": "",
+       "old_pages": [
+        30
+       ],
+       "new_pages": [
+        31
+       ],
+       "old_ranges": {
+        "30": [
+         [
+          83,
+          84
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        31,
+        82,
+        1
+       ],
+       "context": "解的方法制取这些金属单质。以石墨⟦⟧为电解池的两个电极电解熔融的氧化"
+      }
+     ]
+    },
+    {
+     "group": 5,
+     "old_pages": [
+      39
+     ],
+     "new_pages": [
+      40
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "，以及对",
+       "new": "、给",
+       "old_pages": [
+        39
+       ],
+       "new_pages": [
+        40
+       ],
+       "old_ranges": {
+        "39": [
+         [
+          526,
+          530
+         ]
+        ]
+       },
+       "new_ranges": {
+        "40": [
+         [
+          526,
+          528
+         ]
+        ]
+       },
+       "context": "氮为人类所用，以解决化肥效率不高⟦⟧土壤和环境带来一定副作用等问题。"
+      }
+     ]
+    },
+    {
+     "group": 6,
+     "old_pages": [
+      40
+     ],
+     "new_pages": [
+      41
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "燃料",
+       "new": "推进剂",
+       "old_pages": [
+        40
+       ],
+       "new_pages": [
+        41
+       ],
+       "old_ranges": {
+        "40": [
+         [
+          690,
+          692
+         ]
+        ]
+       },
+       "new_ranges": {
+        "41": [
+         [
+          690,
+          693
+         ]
+        ]
+       },
+       "context": "到人们的普遍重视。二氧化氮在火箭⟦⟧中用作氧化剂，在工业上可以用来制"
+      }
+     ]
+    },
+    {
+     "group": 7,
+     "old_pages": [
+      41
+     ],
+     "new_pages": [
+      42
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "删除",
+       "old": "作",
+       "new": "",
+       "old_pages": [
+        41
+       ],
+       "new_pages": [
+        42
+       ],
+       "old_ranges": {
+        "41": [
+         [
+          544,
+          545
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        42,
+        543,
+        1
+       ],
+       "context": "氮能否以大气中约4/5体积的氮气⟦⟧为原料，将其转化为氮的化合物？虽"
+      },
+      {
+       "no": 2,
+       "type": "修改",
+       "old": "将其",
+       "new": "其转",
+       "old_pages": [
+        41
+       ],
+       "new_pages": [
+        42
+       ],
+       "old_ranges": {
+        "41": [
+         [
+          618,
+          620
+         ]
+        ]
+       },
+       "new_ranges": {
+        "42": [
+         [
+          617,
+          619
+         ]
+        ]
+       },
+       "context": "人工固氮需要什么条件才能实现呢？⟦⟧温故知新合成氨工业的成功，为植"
+      }
+     ]
+    },
+    {
+     "group": 8,
+     "old_pages": [
+      42
+     ],
+     "new_pages": [
+      43
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "新增",
+       "old": "",
+       "new": "了",
+       "old_pages": [
+        42
+       ],
+       "new_pages": [
+        43
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "43": [
+         [
+          17,
+          18
+         ]
+        ]
+       },
+       "old_anchor": [
+        42,
+        16,
+        1
+       ],
+       "context": "合成氨工业的成功，为植物生长提供⟦⟧足够的氮肥，在很大程度上缓解了地"
+      }
+     ]
+    },
+    {
+     "group": 9,
+     "old_pages": [
+      55
+     ],
+     "new_pages": [
+      56
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "删除",
+       "old": "作",
+       "new": "",
+       "old_pages": [
+        55
+       ],
+       "new_pages": [
+        56
+       ],
+       "old_ranges": {
+        "55": [
+         [
+          91,
+          92
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        56,
+        90,
+        1
+       ],
+       "context": "化天然气（LNG）或高效燃料电池⟦⟧为动力的新型环保汽车。图7-15"
+      }
+     ]
+    },
+    {
+     "group": 10,
+     "old_pages": [
+      60
+     ],
+     "new_pages": [
+      61
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "删除",
+       "old": "铵态",
+       "new": "",
+       "old_pages": [
+        60
+       ],
+       "new_pages": [
+        61
+       ],
+       "old_ranges": {
+        "60": [
+         [
+          323,
+          325
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        61,
+        322,
+        1
+       ],
+       "context": "生反应的氨气是mol。6.常见的⟦⟧氮肥有(NH)SO（俗称硫铵）、"
+      }
+     ]
+    },
+    {
+     "group": 11,
+     "old_pages": [
+      65
+     ],
+     "new_pages": [
+      66
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "新增",
+       "old": "",
+       "new": "链状",
+       "old_pages": [
+        65
+       ],
+       "new_pages": [
+        66
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "66": [
+         [
+          112,
+          114
+         ]
+        ]
+       },
+       "old_anchor": [
+        65,
+        111,
+        1
+       ],
+       "context": "和”，这一系列化合物被称为烷烃。⟦⟧烷烃的分子组成可用通式CH（n代"
+      }
+     ]
+    },
+    {
+     "group": 12,
+     "old_pages": [
+      122
+     ],
+     "new_pages": [
+      123
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "FrGaGd",
+       "new": "Ga",
+       "old_pages": [
+        122
+       ],
+       "new_pages": [
+        123
+       ],
+       "old_ranges": {
+        "122": [
+         [
+          133,
+          139
+         ]
+        ]
+       },
+       "new_ranges": {
+        "123": [
+         [
+          133,
+          135
+         ]
+        ]
+       },
+       "context": "sDyErEsEuFFeFlFm⟦⟧锕银铝镅氩砷砹金硼钡铍铋锫溴碳钙"
+      },
+      {
+       "no": 2,
+       "type": "修改",
+       "old": "钫镓钆",
+       "new": "镓",
+       "old_pages": [
+        122
+       ],
+       "new_pages": [
+        123
+       ],
+       "old_ranges": {
+        "122": [
+         [
+          171,
+          174
+         ]
+        ]
+       },
+       "new_ranges": {
+        "123": [
+         [
+          167,
+          168
+         ]
+        ]
+       },
+       "context": "镉铈锎氯锔钴铬铯铜镝铒锿铕氟铁镄⟦⟧[227]107.8682(2)"
+      },
+      {
+       "no": 3,
+       "type": "新增",
+       "old": "",
+       "new": "Gd",
+       "old_pages": [
+        122
+       ],
+       "new_pages": [
+        123
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "123": [
+         [
+          552,
+          554
+         ]
+        ]
+       },
+       "old_anchor": [
+        122,
+        502,
+        1
+       ],
+       "context": "7][223]69.723(1)⟦⟧GeHHeHfHgHoHsIIn"
+      },
+      {
+       "no": 4,
+       "type": "删除",
+       "old": "LvMc",
+       "new": "",
+       "old_pages": [
+        122
+       ],
+       "new_pages": [
+        123
+       ],
+       "old_ranges": {
+        "122": [
+         [
+          540,
+          544
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        123,
+        582,
+        1
+       ],
+       "context": "IInIrKKrLaLiLuLr⟦⟧MdMgMnMoMtNNaNbN"
+      },
+      {
+       "no": 5,
+       "type": "删除",
+       "old": "hN",
+       "new": "",
+       "old_pages": [
+        122
+       ],
+       "new_pages": [
+        123
+       ],
+       "old_ranges": {
+        "122": [
+         [
+          564,
+          566
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        123,
+        602,
+        1
+       ],
+       "context": "MnMoMtNNaNbNdNeN⟦⟧iNoNpOOgOsPPaPbP"
+      },
+      {
+       "no": 6,
+       "type": "删除",
+       "old": "Og",
+       "new": "",
+       "old_pages": [
+        122
+       ],
+       "new_pages": [
+        123
+       ],
+       "old_ranges": {
+        "122": [
+         [
+          572,
+          574
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        123,
+        608,
+        1
+       ],
+       "context": "aNbNdNeNhNiNoNpO⟦⟧OsPPaPbPdPm锗氢氦铪汞"
+      },
+      {
+       "no": 7,
+       "type": "新增",
+       "old": "",
+       "new": "Po钆",
+       "old_pages": [
+        122
+       ],
+       "new_pages": [
+        123
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "123": [
+         [
+          620,
+          623
+         ]
+        ]
+       },
+       "old_anchor": [
+        122,
+        584,
+        1
+       ],
+       "context": "NpOOgOsPPaPbPdPm⟦⟧锗氢氦铪汞钬碘铟铱钾氪镧锂镥铹镆"
+      },
+      {
+       "no": 8,
+       "type": "删除",
+       "old": "镆",
+       "new": "",
+       "old_pages": [
+        122
+       ],
+       "new_pages": [
+        123
+       ],
+       "old_ranges": {
+        "122": [
+         [
+          600,
+          601
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        123,
+        637,
+        1
+       ],
+       "context": "m锗氢氦铪汞钬碘铟铱钾氪镧锂镥铹⟦⟧钔镁锰钼氮钠铌钕氖镍锘镎氧锇磷镤"
+      },
+      {
+       "no": 9,
+       "type": "删除",
+       "old": "5]Po",
+       "new": "",
+       "old_pages": [
+        122
+       ],
+       "new_pages": [
+        123
+       ],
+       "old_ranges": {
+        "122": [
+         [
+          964,
+          968
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        123,
+        1010,
+        1
+       ],
+       "context": "2(1)106.42(1)[14⟦⟧PrPtPuRaRbReRfRg"
+      },
+      {
+       "no": 10,
+       "type": "删除",
+       "old": "Ts",
+       "new": "",
+       "old_pages": [
+        122
+       ],
+       "new_pages": [
+        123
+       ],
+       "old_ranges": {
+        "122": [
+         [
+          1023,
+          1025
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        123,
+        1083,
+        1
+       ],
+       "context": "TaTbTcTeThTiTlTm⟦⟧UVWXeYYbZnZr钋镨铂钚"
+      },
+      {
+       "no": 11,
+       "type": "删除",
+       "old": "钋",
+       "new": "",
+       "old_pages": [
+        122
+       ],
+       "new_pages": [
+        123
+       ],
+       "old_ranges": {
+        "122": [
+         [
+          1037,
+          1038
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        123,
+        1095,
+        1
+       ],
+       "context": "TmTsUVWXeYYbZnZr⟦⟧镨铂钚镭铷铼铑氡钌硫锑钪硒硅钐锡"
+      }
+     ]
+    },
+    {
+     "group": 13,
+     "old_pages": [
+      128
+     ],
+     "new_pages": [
+      128
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "删除",
+       "old": "感谢您使用本书，您在使用本书时有建议或疑问，请及时与我们联系。联系电话：025-83651380电子邮箱：18319568@qq.com",
+       "new": "",
+       "old_pages": [
+        128
+       ],
+       "new_pages": [
+        128
+       ],
+       "old_ranges": {
+        "128": [
+         [
+          0,
+          68
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        128,
+        0,
+        1
+       ],
+       "context": "中化学教材编写组2022年11月⟦⟧"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "选择性必修1 化学反应原理",
+   "old_pdf": "2024/5-化学/普通高中教科书·化学选择性必修1 化学反应原理.pdf",
+   "new_pdf": "2026_去水印/化学/苏教版/普通高中教科书·化学选择性必修1 化学反应原理.pdf",
+   "groups": 25,
+   "changes": 45,
+   "raw_diff_items": 53,
+   "items": [
+    {
+     "group": 1,
+     "old_pages": [
+      3
+     ],
+     "new_pages": [
+      4
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "删除",
+       "old": "”已经成为我国可持续发展的基本国策",
+       "new": "",
+       "old_pages": [
+        3
+       ],
+       "new_pages": [
+        4
+       ],
+       "old_ranges": {
+        "3": [
+         [
+          448,
+          465
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        4,
+        447,
+        1
+       ],
+       "context": "们开创了绿色化学时代。“绿色发展⟦⟧。我们正在努力并且已经能够做到："
+      }
+     ]
+    },
+    {
+     "group": 2,
+     "old_pages": [
+      10
+     ],
+     "new_pages": [
+      11
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "删除",
+       "old": "量",
+       "new": "",
+       "old_pages": [
+        10
+       ],
+       "new_pages": [
+        11
+       ],
+       "old_ranges": {
+        "10": [
+         [
+          536,
+          537
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        11,
+        536,
+        1
+       ],
+       "context": "和液态水，释放19.44kJ的热⟦⟧。观察并分析下列肼燃烧反应的热化"
+      }
+     ]
+    },
+    {
+     "group": 3,
+     "old_pages": [
+      13
+     ],
+     "new_pages": [
+      14
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "新增",
+       "old": "",
+       "new": "并",
+       "old_pages": [
+        13
+       ],
+       "new_pages": [
+        14
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "14": [
+         [
+          270,
+          271
+         ]
+        ]
+       },
+       "old_anchor": [
+        13,
+        269,
+        1
+       ],
+       "context": "发生光合作用，将光能转化为化学能⟦⟧以糖类物质的形式储存起来。动物食"
+      }
+     ]
+    },
+    {
+     "group": 4,
+     "old_pages": [
+      17
+     ],
+     "new_pages": [
+      18
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "新增",
+       "old": "",
+       "new": "H(g)和",
+       "old_pages": [
+        17
+       ],
+       "new_pages": [
+        18
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "18": [
+         [
+          619,
+          624
+         ]
+        ]
+       },
+       "old_anchor": [
+        17,
+        618,
+        1
+       ],
+       "context": "为：C＋HO=CO＋HC(s)、⟦⟧CO(g)和H(g)完全燃烧的热"
+      },
+      {
+       "no": 2,
+       "type": "删除",
+       "old": "和H(g)完全",
+       "new": "",
+       "old_pages": [
+        17
+       ],
+       "new_pages": [
+        18
+       ],
+       "old_ranges": {
+        "17": [
+         [
+          624,
+          631
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        18,
+        628,
+        1
+       ],
+       "context": "O=CO＋HC(s)、CO(g)⟦⟧燃烧的热化学方程式分别为：C(s"
+      }
+     ]
+    },
+    {
+     "group": 5,
+     "old_pages": [
+      26
+     ],
+     "new_pages": [
+      27
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "删除",
+       "old": "到",
+       "new": "",
+       "old_pages": [
+        26
+       ],
+       "new_pages": [
+        27
+       ],
+       "old_ranges": {
+        "26": [
+         [
+          288,
+          289
+         ],
+         [
+          317,
+          318
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "count": 2,
+       "new_anchor": [
+        27,
+        287,
+        1
+       ],
+       "context": "电过程中，锂离子从负极脱出，嵌入⟦⟧正极。在充电过程中，锂离子从正极"
+      }
+     ]
+    },
+    {
+     "group": 6,
+     "old_pages": [
+      39
+     ],
+     "new_pages": [
+      40
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "新增",
+       "old": "",
+       "new": "例",
+       "old_pages": [
+        39
+       ],
+       "new_pages": [
+        40
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "40": [
+         [
+          463,
+          464
+         ]
+        ]
+       },
+       "old_anchor": [
+        39,
+        461,
+        1
+       ],
+       "context": "寻找出更合适的方法防止金属腐蚀。⟦⟧如，将铝片浸入浓硫酸或浓硝酸时，"
+      },
+      {
+       "no": 2,
+       "type": "新增",
+       "old": "",
+       "new": "同样，",
+       "old_pages": [
+        39
+       ],
+       "new_pages": [
+        40
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "40": [
+         [
+          540,
+          543
+         ]
+        ]
+       },
+       "old_anchor": [
+        39,
+        537,
+        1
+       ],
+       "context": "用铝罐车运输冷的浓硝酸和浓硫酸。⟦⟧铁在NaOH和NaNO的混合溶液"
+      }
+     ]
+    },
+    {
+     "group": 7,
+     "old_pages": [
+      55
+     ],
+     "new_pages": [
+      56
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "酶催化",
+       "new": "生物催化剂",
+       "old_pages": [
+        55
+       ],
+       "new_pages": [
+        56
+       ],
+       "old_ranges": {
+        "55": [
+         [
+          190,
+          193
+         ]
+        ]
+       },
+       "new_ranges": {
+        "56": [
+         [
+          190,
+          195
+         ]
+        ]
+       },
+       "context": "高效的催化活性。酶的催化效率比非⟦⟧要高得多。如在人体正常体温时，食"
+      }
+     ]
+    },
+    {
+     "group": 8,
+     "old_pages": [
+      56
+     ],
+     "new_pages": [
+      57
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "没有",
+       "new": "不",
+       "old_pages": [
+        56
+       ],
+       "new_pages": [
+        57
+       ],
+       "old_ranges": {
+        "56": [
+         [
+          284,
+          286
+         ]
+        ]
+       },
+       "new_ranges": {
+        "57": [
+         [
+          284,
+          285
+         ]
+        ]
+       },
+       "context": "性。在通常情况下，有些物质混合后⟦⟧发生化学变化，但改变其中的某种反"
+      },
+      {
+       "no": 2,
+       "type": "删除",
+       "old": "制于",
+       "new": "",
+       "old_pages": [
+        56
+       ],
+       "new_pages": [
+        57
+       ],
+       "old_ranges": {
+        "56": [
+         [
+          455,
+          457
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        57,
+        453,
+        1
+       ],
+       "context": "氧化钠。二是外因。化学反应速率受⟦⟧许多外界条件的影响，我们可以根据"
+      },
+      {
+       "no": 3,
+       "type": "新增",
+       "old": "",
+       "new": "以",
+       "old_pages": [
+        56
+       ],
+       "new_pages": [
+        57
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "57": [
+         [
+          593,
+          594
+         ]
+        ]
+       },
+       "old_anchor": [
+        56,
+        595,
+        1
+       ],
+       "context": "HO分解制O时可以加入少量MnO⟦⟧增大反应速率。因此，我们可以通过"
+      }
+     ]
+    },
+    {
+     "group": 9,
+     "old_pages": [
+      57
+     ],
+     "new_pages": [
+      58
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "太昂贵",
+       "new": "价格昂贵，",
+       "old_pages": [
+        57
+       ],
+       "new_pages": [
+        58
+       ],
+       "old_ranges": {
+        "57": [
+         [
+          441,
+          444
+         ]
+        ]
+       },
+       "new_ranges": {
+        "58": [
+         [
+          441,
+          446
+         ]
+        ]
+       },
+       "context": "做硬币材料，20世纪80年代因铜⟦⟧需要寻找替代金属。锌与铜的硬度、"
+      }
+     ]
+    },
+    {
+     "group": 10,
+     "old_pages": [
+      59
+     ],
+     "new_pages": [
+      60
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "新增",
+       "old": "",
+       "new": "的",
+       "old_pages": [
+        59
+       ],
+       "new_pages": [
+        60
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "60": [
+         [
+          86,
+          87
+         ],
+         [
+          109,
+          110
+         ]
+        ]
+       },
+       "count": 2,
+       "old_anchor": [
+        59,
+        85,
+        1
+       ],
+       "context": "：①图甲表明，相同时，越大，HO⟦⟧分解速率越大。②图乙表明，相同时"
+      },
+      {
+       "no": 2,
+       "type": "新增",
+       "old": "",
+       "new": "溶液",
+       "old_pages": [
+        59
+       ],
+       "new_pages": [
+        60
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "60": [
+         [
+          231,
+          233
+         ]
+        ]
+       },
+       "old_anchor": [
+        59,
+        228,
+        1
+       ],
+       "context": "为0.05mol·LFe(SO)⟦⟧更为合理，其理由是。2mL1.5"
+      }
+     ]
+    },
+    {
+     "group": 11,
+     "old_pages": [
+      63
+     ],
+     "new_pages": [
+      64
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "新增",
+       "old": "",
+       "new": "进行",
+       "old_pages": [
+        63
+       ],
+       "new_pages": [
+        64
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "64": [
+         [
+          260,
+          262
+         ]
+        ]
+       },
+       "old_anchor": [
+        63,
+        259,
+        1
+       ],
+       "context": "2-14几种变化序号变化能否自发⟦⟧焓变熵变1CO(s)CO(g)2"
+      }
+     ]
+    },
+    {
+     "group": 12,
+     "old_pages": [
+      64
+     ],
+     "new_pages": [
+      65
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "新增",
+       "old": "",
+       "new": "反应",
+       "old_pages": [
+        64
+       ],
+       "new_pages": [
+        65
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "65": [
+         [
+          230,
+          232
+         ],
+         [
+          248,
+          250
+         ]
+        ]
+       },
+       "count": 2,
+       "old_anchor": [
+        64,
+        229,
+        1
+       ],
+       "context": "反应，如碳酸钠溶液与氢氧化钙溶液⟦⟧生成碳酸钙沉淀、氯气与溴化钠溶液"
+      }
+     ]
+    },
+    {
+     "group": 13,
+     "old_pages": [
+      66
+     ],
+     "new_pages": [
+      67
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "开始反应时",
+       "new": "反应开始时，",
+       "old_pages": [
+        66
+       ],
+       "new_pages": [
+        67
+       ],
+       "old_ranges": {
+        "66": [
+         [
+          34,
+          39
+         ]
+        ]
+       },
+       "new_ranges": {
+        "67": [
+         [
+          34,
+          40
+         ]
+        ]
+       },
+       "context": "物的一瞬间，逆反应就开始进行了。⟦⟧正反应速率最大，由于起初生成物浓"
+      }
+     ]
+    },
+    {
+     "group": 14,
+     "old_pages": [
+      67
+     ],
+     "new_pages": [
+      68
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "删除",
+       "old": "值",
+       "new": "",
+       "old_pages": [
+        67
+       ],
+       "new_pages": [
+        68
+       ],
+       "old_ranges": {
+        "67": [
+         [
+          78,
+          79
+         ],
+         [
+          94,
+          95
+         ],
+         [
+          133,
+          134
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "count": 3,
+       "new_anchor": [
+        68,
+        77,
+        1
+       ],
+       "context": "进行的程度（也叫反应的限度）。K⟦⟧越大，表示反应进行得越完全；K值"
+      }
+     ]
+    },
+    {
+     "group": 15,
+     "old_pages": [
+      77
+     ],
+     "new_pages": [
+      78
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "删除",
+       "old": "曾",
+       "new": "",
+       "old_pages": [
+        77
+       ],
+       "new_pages": [
+        78
+       ],
+       "old_ranges": {
+        "77": [
+         [
+          257,
+          258
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        78,
+        256,
+        1
+       ],
+       "context": "—1936）是一位法国化学教授，⟦⟧担任过矿业工程师。当时，如何使炼"
+      },
+      {
+       "no": 2,
+       "type": "新增",
+       "old": "",
+       "new": "全",
+       "old_pages": [
+        77
+       ],
+       "new_pages": [
+        78
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "78": [
+         [
+          288,
+          289
+         ]
+        ]
+       },
+       "old_anchor": [
+        77,
+        288,
+        1
+       ],
+       "context": "炼铁高炉中的一氧化碳尽可能反应完⟦⟧，一直是炼铁工程师心中的未解之谜"
+      },
+      {
+       "no": 3,
+       "type": "修改",
+       "old": "代",
+       "new": "期",
+       "old_pages": [
+        77
+       ],
+       "new_pages": [
+        78
+       ],
+       "old_ranges": {
+        "77": [
+         [
+          404,
+          405
+         ]
+        ]
+       },
+       "new_ranges": {
+        "78": [
+         [
+          404,
+          405
+         ]
+        ]
+       },
+       "context": "研究温度对化学平衡的影响时，同时⟦⟧的化学家范霍夫（J.H.Van'"
+      },
+      {
+       "no": 4,
+       "type": "新增",
+       "old": "",
+       "new": "出",
+       "old_pages": [
+        77
+       ],
+       "new_pages": [
+        78
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "78": [
+         [
+          661,
+          662
+         ]
+        ]
+       },
+       "old_anchor": [
+        77,
+        660,
+        1
+       ],
+       "context": "勒夏特列运用化学平衡移动原理推算⟦⟧，以氮气、氢气为原料在高压下可以"
+      },
+      {
+       "no": 5,
+       "type": "修改",
+       "old": "前",
+       "new": "之前，",
+       "old_pages": [
+        77
+       ],
+       "new_pages": [
+        78
+       ],
+       "old_ranges": {
+        "77": [
+         [
+          716,
+          717
+         ]
+        ]
+       },
+       "new_ranges": {
+        "78": [
+         [
+          717,
+          720
+         ]
+        ]
+       },
+       "context": "实验中发生爆炸，在未查明事故原因⟦⟧他就放弃该项研究，错失了更伟大的"
+      },
+      {
+       "no": 6,
+       "type": "新增",
+       "old": "",
+       "new": "了",
+       "old_pages": [
+        77
+       ],
+       "new_pages": [
+        78
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "78": [
+         [
+          724,
+          725
+         ]
+        ]
+       },
+       "old_anchor": [
+        77,
+        720,
+        1
+       ],
+       "context": "爆炸，在未查明事故原因前他就放弃⟦⟧该项研究，错失了更伟大的科学发现"
+      }
+     ]
+    },
+    {
+     "group": 16,
+     "old_pages": [
+      79
+     ],
+     "new_pages": [
+      80
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "删除",
+       "old": "的",
+       "new": "",
+       "old_pages": [
+        79
+       ],
+       "new_pages": [
+        80
+       ],
+       "old_ranges": {
+        "79": [
+         [
+          562,
+          563
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        80,
+        561,
+        1
+       ],
+       "context": "件下A、C两种物质的聚集状态可能⟦⟧是（）A.A是气体，C是固体B."
+      }
+     ]
+    },
+    {
+     "group": 17,
+     "old_pages": [
+      89
+     ],
+     "new_pages": [
+      90
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "出",
+       "new": "呈",
+       "old_pages": [
+        89
+       ],
+       "new_pages": [
+        90
+       ],
+       "old_ranges": {
+        "89": [
+         [
+          382,
+          383
+         ]
+        ]
+       },
+       "new_ranges": {
+        "90": [
+         [
+          382,
+          383
+         ]
+        ]
+       },
+       "context": "酸分子、氢离子、醋酸根离子的浓度⟦⟧现什么特征？你能尝试用化学平衡的"
+      }
+     ]
+    },
+    {
+     "group": 18,
+     "old_pages": [
+      94
+     ],
+     "new_pages": [
+      95
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "删除",
+       "old": "值",
+       "new": "",
+       "old_pages": [
+        94
+       ],
+       "new_pages": [
+        95
+       ],
+       "old_ranges": {
+        "94": [
+         [
+          533,
+          534
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        95,
+        532,
+        1
+       ],
+       "context": "化。请你与同学讨论，不同温度下K⟦⟧出现差异的原因。交流讨论我们知"
+      }
+     ]
+    },
+    {
+     "group": 19,
+     "old_pages": [
+      95
+     ],
+     "new_pages": [
+      96
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "删除",
+       "old": "若",
+       "new": "",
+       "old_pages": [
+        95
+       ],
+       "new_pages": [
+        96
+       ],
+       "old_ranges": {
+        "95": [
+         [
+          545,
+          546
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        96,
+        544,
+        1
+       ],
+       "context": "性实验，发现灯泡亮度同样很低。但⟦⟧将两种溶液等体积混合再进行导电性"
+      },
+      {
+       "no": 2,
+       "type": "新增",
+       "old": "",
+       "new": "后，",
+       "old_pages": [
+        95
+       ],
+       "new_pages": [
+        96
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "96": [
+         [
+          555,
+          557
+         ]
+        ]
+       },
+       "old_anchor": [
+        95,
+        555,
+        1
+       ],
+       "context": "样很低。但若将两种溶液等体积混合⟦⟧再进行导电性实验，灯泡亮度却显著"
+      },
+      {
+       "no": 3,
+       "type": "新增",
+       "old": "",
+       "new": "页",
+       "old_pages": [
+        95
+       ],
+       "new_pages": [
+        96
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "96": [
+         [
+          617,
+          618
+         ]
+        ]
+       },
+       "old_anchor": [
+        95,
+        615,
+        1
+       ],
+       "context": "HONH＋OH。若在氨水中加入下⟦⟧表中的物质（保持温度不变），一水"
+      },
+      {
+       "no": 4,
+       "type": "修改",
+       "old": "表",
+       "new": "页表格",
+       "old_pages": [
+        95
+       ],
+       "new_pages": [
+        96
+       ],
+       "old_ranges": {
+        "95": [
+         [
+          667,
+          668
+         ]
+        ]
+       },
+       "new_ranges": {
+        "96": [
+         [
+          669,
+          672
+         ]
+        ]
+       },
+       "context": ")、c(OH)如何变化？请填写下⟦⟧。理解应用加入的物质c(NH·"
+      }
+     ]
+    },
+    {
+     "group": 20,
+     "old_pages": [
+      96
+     ],
+     "new_pages": [
+      97
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "删除",
+       "old": "的值",
+       "new": "",
+       "old_pages": [
+        96
+       ],
+       "new_pages": [
+        97
+       ],
+       "old_ranges": {
+        "96": [
+         [
+          111,
+          113
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        97,
+        110,
+        1
+       ],
+       "context": "离程度，其表达式是，温度升高，K⟦⟧（填“变大”“变小”或“不变”）"
+      },
+      {
+       "no": 2,
+       "type": "删除",
+       "old": "值",
+       "new": "",
+       "old_pages": [
+        96
+       ],
+       "new_pages": [
+        97
+       ],
+       "old_ranges": {
+        "96": [
+         [
+          149,
+          150
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        97,
+        146,
+        1
+       ],
+       "context": "K通常表示弱酸的电离平衡常数，K⟦⟧越大表示该弱酸的酸性，当用蒸馏水"
+      }
+     ]
+    },
+    {
+     "group": 21,
+     "old_pages": [
+      102
+     ],
+     "new_pages": [
+      103
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "试",
+       "new": "溶",
+       "old_pages": [
+        102
+       ],
+       "new_pages": [
+        103
+       ],
+       "old_ranges": {
+        "102": [
+         [
+          321,
+          322
+         ]
+        ]
+       },
+       "new_ranges": {
+        "103": [
+         [
+          321,
+          322
+         ]
+        ]
+       },
+       "context": "L盐酸至锥形瓶中，再滴加2滴酚酞⟦⟧液作为指示剂，用pH计测定其pH"
+      }
+     ]
+    },
+    {
+     "group": 22,
+     "old_pages": [
+      105
+     ],
+     "new_pages": [
+      106
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "试",
+       "new": "溶",
+       "old_pages": [
+        105
+       ],
+       "new_pages": [
+        106
+       ],
+       "old_ranges": {
+        "105": [
+         [
+          199,
+          200
+         ],
+         [
+          537,
+          538
+         ]
+        ]
+       },
+       "new_ranges": {
+        "106": [
+         [
+          199,
+          200
+         ],
+         [
+          537,
+          538
+         ]
+        ]
+       },
+       "count": 2,
+       "context": "向盛放盐酸的锥形瓶中滴加2滴酚酞⟦⟧液，将锥形瓶移至碱式滴定管下，轻"
+      }
+     ]
+    },
+    {
+     "group": 23,
+     "old_pages": [
+      106
+     ],
+     "new_pages": [
+      107
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "试",
+       "new": "溶",
+       "old_pages": [
+        106
+       ],
+       "new_pages": [
+        107
+       ],
+       "old_ranges": {
+        "106": [
+         [
+          310,
+          311
+         ]
+        ]
+       },
+       "new_ranges": {
+        "107": [
+         [
+          310,
+          311
+         ]
+        ]
+       },
+       "context": "洁净的锥形瓶中，加入2~3滴酚酞⟦⟧液；B.用氢氧化钠标准溶液润洗滴"
+      }
+     ]
+    },
+    {
+     "group": 24,
+     "old_pages": [
+      115
+     ],
+     "new_pages": [
+      116
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "试",
+       "new": "溶",
+       "old_pages": [
+        115
+       ],
+       "new_pages": [
+        116
+       ],
+       "old_ranges": {
+        "115": [
+         [
+          437,
+          438
+         ]
+        ]
+       },
+       "new_ranges": {
+        "116": [
+         [
+          437,
+          438
+         ]
+        ]
+       },
+       "context": "mol·LNaCO溶液中加入酚酞⟦⟧液，观察到的现象是，原因是；再向"
+      }
+     ]
+    },
+    {
+     "group": 25,
+     "old_pages": [
+      135
+     ],
+     "new_pages": [
+      136
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "删除",
+       "old": "2s2p",
+       "new": "",
+       "old_pages": [
+        135
+       ],
+       "new_pages": [
+        136
+       ],
+       "old_ranges": {
+        "135": [
+         [
+          0,
+          4
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        136,
+        0,
+        1
+       ],
+       "context": "高中化学教材编写组2023年6月⟦⟧感谢您使用本书，您在使用本书时有"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "选择性必修2 物质结构与性质",
+   "old_pdf": "2024/5-化学/普通高中教科书·化学选择性必修2 物质结构与性质.pdf",
+   "new_pdf": "2026_去水印/化学/苏教版/普通高中教科书·化学选择性必修2 物质结构与性质.pdf",
+   "groups": 4,
+   "changes": 5,
+   "raw_diff_items": 6,
+   "items": [
+    {
+     "group": 1,
+     "old_pages": [
+      4
+     ],
+     "new_pages": [
+      4
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "删除",
+       "old": "”已经成为我国可持续发展的基本国策",
+       "new": "",
+       "old_pages": [
+        4
+       ],
+       "new_pages": [
+        4
+       ],
+       "old_ranges": {
+        "4": [
+         [
+          449,
+          466
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        4,
+        448,
+        1
+       ],
+       "context": "们开创了绿色化学时代。“绿色发展⟦⟧。我们正在努力并且已经能够做到："
+      }
+     ]
+    },
+    {
+     "group": 2,
+     "old_pages": [
+      46
+     ],
+     "new_pages": [
+      46
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "列",
+       "new": "利特",
+       "old_pages": [
+        46
+       ],
+       "new_pages": [
+        46
+       ],
+       "old_ranges": {
+        "46": [
+         [
+          482,
+          483
+         ],
+         [
+          568,
+          569
+         ]
+        ]
+       },
+       "new_ranges": {
+        "46": [
+         [
+          482,
+          484
+         ],
+         [
+          569,
+          571
+         ]
+        ]
+       },
+       "count": 2,
+       "context": "的发现1962年，英国化学家巴特⟦⟧（N.Bartlett）在研究铂"
+      }
+     ]
+    },
+    {
+     "group": 3,
+     "old_pages": [
+      47
+     ],
+     "new_pages": [
+      47
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "列",
+       "new": "利特",
+       "old_pages": [
+        47
+       ],
+       "new_pages": [
+        47
+       ],
+       "old_ranges": {
+        "47": [
+         [
+          133,
+          134
+         ]
+        ]
+       },
+       "new_ranges": {
+        "47": [
+         [
+          133,
+          135
+         ]
+        ]
+       },
+       "context": "物，是化学史上一次重大突破，巴特⟦⟧为开拓稀有气体化学作出了历史性的"
+      }
+     ]
+    },
+    {
+     "group": 4,
+     "old_pages": [
+      130
+     ],
+     "new_pages": [
+      130
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "删除",
+       "old": "2s2p",
+       "new": "",
+       "old_pages": [
+        130
+       ],
+       "new_pages": [
+        130
+       ],
+       "old_ranges": {
+        "130": [
+         [
+          0,
+          4
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        130,
+        0,
+        1
+       ],
+       "context": "中化学教材编写组2022年11月⟦⟧感谢您使用本书，您在使用本书时有"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "选择性必修3 有机化学基础",
+   "old_pdf": "2024/5-化学/普通高中教科书·化学选择性必修3 有机化学基础.pdf",
+   "new_pdf": "2026_去水印/化学/苏教版/普通高中教科书·化学选择性必修3 有机化学基础.pdf",
+   "groups": 5,
+   "changes": 7,
+   "raw_diff_items": 9,
+   "items": [
+    {
+     "group": 1,
+     "old_pages": [
+      3
+     ],
+     "new_pages": [
+      4
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "删除",
+       "old": "”已经成为我国可持续发展的基本国策",
+       "new": "",
+       "old_pages": [
+        3
+       ],
+       "new_pages": [
+        4
+       ],
+       "old_ranges": {
+        "3": [
+         [
+          448,
+          465
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        4,
+        447,
+        1
+       ],
+       "context": "们开创了绿色化学时代。“绿色发展⟦⟧。我们正在努力并且已经能够做到："
+      }
+     ]
+    },
+    {
+     "group": 2,
+     "old_pages": [
+      68
+     ],
+     "new_pages": [
+      69
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "新增",
+       "old": "",
+       "new": "年",
+       "old_pages": [
+        68
+       ],
+       "new_pages": [
+        69
+       ],
+       "old_ranges": {},
+       "new_ranges": {
+        "69": [
+         [
+          466,
+          467
+         ]
+        ]
+       },
+       "old_anchor": [
+        68,
+        465,
+        1
+       ],
+       "context": "，是天然气资源大国。中国的天然气⟦⟧消费量，近10年来从700亿立方"
+      },
+      {
+       "no": 2,
+       "type": "删除",
+       "old": "近1500",
+       "new": "",
+       "old_pages": [
+        68
+       ],
+       "new_pages": [
+        69
+       ],
+       "old_ranges": {
+        "68": [
+         [
+          486,
+          491
+         ]
+        ]
+       },
+       "new_ranges": {},
+       "new_anchor": [
+        69,
+        488,
+        1
+       ],
+       "context": "近10年来从700亿立方米增长到⟦⟧亿立方米。在当今以化石能源为主的"
+      }
+     ]
+    },
+    {
+     "group": 3,
+     "old_pages": [
+      91
+     ],
+     "new_pages": [
+      92
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "酒精洗涤，再用水冲洗",
+       "new": "清水长时间冲洗，并寻求专业医疗机构帮助",
+       "old_pages": [
+        91
+       ],
+       "new_pages": [
+        92
+       ],
+       "old_ranges": {
+        "91": [
+         [
+          687,
+          697
+         ]
+        ]
+       },
+       "new_ranges": {
+        "92": [
+         [
+          687,
+          706
+         ]
+        ]
+       },
+       "context": "果不慎将苯酚沾到皮肤上，应立即用⟦⟧。图4-13苯酚分子的空间填充模"
+      }
+     ]
+    },
+    {
+     "group": 4,
+     "old_pages": [
+      139
+     ],
+     "new_pages": [
+      140
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "常",
+       "new": "可",
+       "old_pages": [
+        139
+       ],
+       "new_pages": [
+        140
+       ],
+       "old_ranges": {
+        "139": [
+         [
+          144,
+          145
+         ]
+        ]
+       },
+       "new_ranges": {
+        "140": [
+         [
+          144,
+          145
+         ]
+        ]
+       },
+       "context": "酸甘油酯是一种无色或淡黄色液体，⟦⟧用于制造肥皂、蜡烛等，也用作溶剂"
+      },
+      {
+       "no": 2,
+       "type": "修改",
+       "old": "肥皂、蜡烛等，也用作溶剂和增塑剂",
+       "new": "炸药，也可作为缓解心血管疾病的药物",
+       "old_pages": [
+        139
+       ],
+       "new_pages": [
+        140
+       ],
+       "old_ranges": {
+        "139": [
+         [
+          149,
+          165
+         ]
+        ]
+       },
+       "new_ranges": {
+        "140": [
+         [
+          149,
+          166
+         ]
+        ]
+       },
+       "context": "一种无色或淡黄色液体，常用于制造⟦⟧。如果以丙烯为基础原料合成该物质"
+      }
+     ]
+    },
+    {
+     "group": 5,
+     "old_pages": [
+      178
+     ],
+     "new_pages": [
+      179
+     ],
+     "changes": [
+      {
+       "no": 1,
+       "type": "修改",
+       "old": "峰",
+       "new": "锋",
+       "old_pages": [
+        178
+       ],
+       "new_pages": [
+        179
+       ],
+       "old_ranges": {
+        "178": [
+         [
+          972,
+          973
+         ]
+        ]
+       },
+       "new_ranges": {
+        "179": [
+         [
+          972,
+          973
+         ]
+        ]
+       },
+       "context": "澍、宋惠民、王艳春、梁雪峰、金剑⟦⟧等老师在本教材编写、修订过程中给"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
